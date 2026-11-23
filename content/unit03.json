@@ -219,8 +219,7 @@
    ],
    "pics": [
     {
-     "fig": "shapesForms",
-     "img": "img/unit3/slide-flat-solid.jpg"
+     "fig": "flatSolid"
     }
    ]
   },
@@ -635,64 +634,6 @@
   {
    "page": 53,
    "routine": [
-    "DRAW ALONG",
-    "วาดตาม"
-   ],
-   "title": [
-    "Drawing time!",
-    "ถึงเวลาวาดภาพ"
-   ],
-   "lines": [
-    [
-     "The girl and the coconut tree",
-     "เด็กผู้หญิงกับต้นมะพร้าว"
-    ],
-    [
-     "Open ✏️ Draw: The beach",
-     "เปิด ✏️ วาดภาพ: ชายหาด"
-    ]
-   ],
-   "pics": [
-    {
-     "fig": "scenery",
-     "img": "img/unit3/slide-beach-girl.jpg"
-    }
-   ]
-  },
-  {
-   "page": 54,
-   "routine": [
-    "EXTENSION",
-    "กิจกรรมเสริม"
-   ],
-   "title": [
-    "Real light or imaginary light?",
-    "แสงแบบจริง หรือแสงจากจินตนาการ"
-   ],
-   "lines": [
-    [
-     "What if the light were green?",
-     "ถ้าแสงเป็นสีเขียวล่ะ"
-    ]
-   ],
-   "pics": [
-    {
-     "fig": "surreal",
-     "img": "img/unit3/slide-real-imaginary.jpg",
-     "cap": [
-      "Real light · Imaginary light",
-      "แสงแบบจริง · แสงจากจินตนาการ"
-     ]
-    },
-    {
-     "fig": "surreal",
-     "img": "img/unit3/surreal-fruit.jpg"
-    }
-   ]
-  },
-  {
-   "page": 59,
-   "routine": [
     "UNIT REVIEW",
     "ทบทวนบทเรียน"
    ],
@@ -729,6 +670,33 @@
      "เงาช่วยให้วัตถุดูเหมือนวางอยู่บนพื้น"
     ]
    }
+  },
+  {
+   "page": 53,
+   "routine": [
+    "DRAW ALONG",
+    "วาดตาม"
+   ],
+   "title": [
+    "Drawing time!",
+    "ถึงเวลาวาดภาพ"
+   ],
+   "lines": [
+    [
+     "The girl and the coconut tree",
+     "เด็กผู้หญิงกับต้นมะพร้าว"
+    ],
+    [
+     "Open ✏️ Draw: The beach",
+     "เปิด ✏️ วาดภาพ: ชายหาด"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "scenery",
+     "img": "img/unit3/slide-beach-girl.jpg"
+    }
+   ]
   }
  ],
  "project": {
@@ -881,7 +849,7 @@
    ]
   }
  ],
- "build": 6,
+ "build": 7,
  "activities": [
   {
    "num": 1,

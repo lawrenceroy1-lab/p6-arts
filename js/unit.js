@@ -2,7 +2,7 @@
 // No logins and no scores: T. Roy teaches, students work on paper.
 
 const UNIT_ID = new URLSearchParams(location.search).get("u") || "03";
-const BUILD = 6;               // must match "build" in content/unitXX.json (made by tools/build_unitXX.py)
+const BUILD = 7;               // must match "build" in content/unitXX.json (made by tools/build_unitXX.py)
 let D = null;
 let tab = "need";
 let cleanup = null;

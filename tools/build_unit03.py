@@ -102,7 +102,7 @@ slide(44, "start", P("From 2D to 3D", "จาก 2 มิติ สู่ 3 ม�
       [pic("scenery", "slide-beach-girl.jpg")])
 slide(45, "look", P("Flat shape or solid form?", "รูปร่างแบน หรือรูปทรงสามมิติ"),
       [P("Circle → Sphere · Square → Cube", "วงกลม → ทรงกลม · สี่เหลี่ยมจัตุรัส → ลูกบาศก์")],
-      [pic("shapesForms", "slide-flat-solid.jpg")])
+      [pic("flatSolid")])
 slide(45, "look", P("What is depth?", "ความลึกคืออะไร"),
       [P("2D: width and length. 3D: also depth.", "2 มิติ: กว้างและยาว 3 มิติ: มีความลึกด้วย")],
       [pic("dims")])
@@ -152,17 +152,14 @@ slide(53, "detective", P("The beach in the book", "ชายหาดในห�
 slide(53, "detective", P("One light direction", "แสงมาจากทิศเดียวกัน"),
       [P("Light from upper left. Shadows go lower right.", "แสงมาจากซ้ายบน เงาทอดไปทางขวาล่าง")],
       [pic("scenery", "slide-beach-girl.jpg")])
-slide(53, "draw", P("Drawing time!", "ถึงเวลาวาดภาพ"),
-      [P("The girl and the coconut tree", "เด็กผู้หญิงกับต้นมะพร้าว"), P("Open ✏️ Draw: The beach", "เปิด ✏️ วาดภาพ: ชายหาด")],
-      [pic("scenery", "slide-beach-girl.jpg")])
-slide(54, "extension", P("Real light or imaginary light?", "แสงแบบจริง หรือแสงจากจินตนาการ"),
-      [P("What if the light were green?", "ถ้าแสงเป็นสีเขียวล่ะ")],
-      [pic("surreal", "slide-real-imaginary.jpg", P("Real light · Imaginary light", "แสงแบบจริง · แสงจากจินตนาการ")), pic("surreal", "surreal-fruit.jpg")])
-slide(59, "review", P("What helps a picture look real?", "อะไรช่วยให้ภาพดูสมจริง"),
+slide(53, "review", P("What helps a picture look real?", "อะไรช่วยให้ภาพดูสมจริง"),
       [P("A = 1 finger · B = 2 fingers", "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว")],
       [pic("castShadow", "slide-real-review.jpg")],
       vote={"options": [P("A. Light and shadow", "A. แสงและเงา"), P("B. Draw it bigger", "B. วาดให้ใหญ่ขึ้น")], "answer": 0,
             "why": P("A shadow helps the object look grounded.", "เงาช่วยให้วัตถุดูเหมือนวางอยู่บนพื้น")})
+slide(53, "draw", P("Drawing time!", "ถึงเวลาวาดภาพ"),
+      [P("The girl and the coconut tree", "เด็กผู้หญิงกับต้นมะพร้าว"), P("Open ✏️ Draw: The beach", "เปิด ✏️ วาดภาพ: ชายหาด")],
+      [pic("scenery", "slide-beach-girl.jpg")])
 
 # ---------------------------------------------------------------- TODAY'S DRAWING: THE BEACH (book p.53), plus help for book activities 3 and 4
 PROJECT = {
@@ -320,7 +317,7 @@ unit = {
     "slides": SLIDES,
     "project": PROJECT,
     "guides": GUIDES,
-    "build": 6,
+    "build": 7,
     "activities": ACTIVITIES,
     "rubric": RUBRIC,
     "test": {"pages": "p.59 to 61", "questions": TEST},

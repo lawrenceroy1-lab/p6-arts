@@ -300,6 +300,17 @@ const Art = (() => {
   const F = {
     flatToCube: () => svg(420, 220, `<rect x="40" y="60" width="110" height="110" fill="#fff" stroke="${INK}" stroke-width="3"/>${arrow(175, 115, 235, 115)}${cube(260, 80, 100, "#42A5F5", { shadow: true })}`),
     cubeBeforeAfter: () => svg(420, 220, `${cube(40, 80, 100, "#fff", { shade: false })}${arrow(195, 115, 245, 115, "#EC407A")}${cube(260, 80, 100, "#9E9E9E", { shadow: true })}`),
+    // Flat shape or solid form (same style as T. Roy's slide, with the whole cube)
+    flatSolid: () => { const N = "#22324a", T = "#2e6b66", g = id("fs");
+      const arr = (x1, x2, y) => `<line x1="${x1}" y1="${y}" x2="${x2 - 8}" y2="${y}" stroke="${T}" stroke-width="9" stroke-linecap="round"/><polyline points="${x2 - 26},${y - 20} ${x2},${y} ${x2 - 26},${y + 20}" fill="none" stroke="${T}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>`;
+      return svg(1100, 330, `<defs><radialGradient id="${g}" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fdeab0"/><stop offset=".45" stop-color="#eaa84f"/><stop offset="1" stop-color="#8e5527"/></radialGradient></defs>
+        <circle cx="120" cy="170" r="88" fill="#fff" stroke="${N}" stroke-width="6"/>${arr(250, 345, 170)}
+        <circle cx="460" cy="170" r="88" fill="url(#${g})" stroke="${N}" stroke-width="6"/>
+        <line x1="590" y1="25" x2="590" y2="315" stroke="#c7d3d6" stroke-width="3"/>
+        <rect x="630" y="95" width="150" height="150" fill="#fff" stroke="${N}" stroke-width="6"/>${arr(805, 890, 170)}
+        <polygon points="910,120 955,80 1085,80 1040,120" fill="#d7ecea" stroke="${N}" stroke-width="5" stroke-linejoin="round"/>
+        <polygon points="1040,120 1085,80 1085,205 1040,245" fill="#3a5f78" stroke="${N}" stroke-width="5" stroke-linejoin="round"/>
+        <rect x="910" y="120" width="130" height="125" fill="#76b3ad" stroke="${N}" stroke-width="5"/>`); },
     shapesForms: () => svg(440, 300, `<circle cx="90" cy="80" r="52" fill="#fff" stroke="${INK}" stroke-width="3"/>${arrow(160, 80, 215, 80)}${ball(310, 80, 52, "#EF5350", "topleft")}
       <rect x="40" y="175" width="100" height="100" fill="#fff" stroke="${INK}" stroke-width="3"/>${arrow(160, 225, 215, 225)}${cube(255, 195, 85, "#42A5F5", {})}`),
     dims: () => svg(460, 250, `<rect x="30" y="70" width="150" height="110" fill="#E3F2FD" stroke="${INK}" stroke-width="3"/>
