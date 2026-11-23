@@ -1,0 +1,2534 @@
+{
+ "unit": "03",
+ "title": [
+  "Two Dimensions (2D) to Three Dimensions (3D)",
+  "จาก 2 มิติ สู่ 3 มิติ"
+ ],
+ "pages": "p.43 to 62",
+ "indicator": [
+  "Create visual art works with two dimensions to three dimensions by applying the principles of light and shadow and weight. (AR1.1 Gr 6/3)",
+  "สร้างงานทัศนศิลป์จาก 2 มิติ เป็น 3 มิติ โดยใช้หลักการของแสงเงาและน้ำหนัก (ศ 1.1 ป.6/3)"
+ ],
+ "materials": {
+  "intro": [
+   "Get these things ready before the lesson.",
+   "เตรียมของเหล่านี้ก่อนเริ่มเรียน"
+  ],
+  "must": [
+   {
+    "fig": "matBook",
+    "name": [
+     "Arts book",
+     "หนังสือศิลปะ"
+    ],
+    "note": [
+     "We draw in the book on p.55 to 58.",
+     "เราจะวาดในหนังสือหน้า 55 ถึง 58"
+    ]
+   },
+   {
+    "fig": "matPencil",
+    "name": [
+     "Pencil (2B is best)",
+     "ดินสอ (2B ดีที่สุด)"
+    ],
+    "note": [
+     "Soft pencil. Easy to make dark.",
+     "ดินสอเนื้ออ่อน ทำให้เข้มได้ง่าย"
+    ]
+   },
+   {
+    "fig": "matEraser",
+    "name": [
+     "Eraser",
+     "ยางลบ"
+    ],
+    "note": [
+     "Rub out lines you do not need.",
+     "ลบเส้นที่ไม่ต้องการ"
+    ]
+   },
+   {
+    "fig": "matSharpener",
+    "name": [
+     "Sharpener",
+     "กบเหลาดินสอ"
+    ],
+    "note": [
+     "A sharp pencil makes thin lines.",
+     "ดินสอแหลมทำให้ได้เส้นบาง"
+    ]
+   }
+  ],
+  "choose": [
+   "Colours: choose ONE. You do not need all three.",
+   "สี: เลือกแค่ 1 อย่าง ไม่ต้องมีครบทั้ง 3 อย่าง"
+  ],
+  "options": [
+   {
+    "fig": "matColourPencils",
+    "name": [
+     "Colour pencils",
+     "สีไม้"
+    ],
+    "best": true,
+    "good": [
+     "Cheap. Clean. Easy to make light, medium and dark.",
+     "ราคาถูก ไม่เลอะ ทำสีอ่อน กลาง เข้มได้ง่าย"
+    ],
+    "bad": [
+     "Colours are not very bright.",
+     "สีไม่สดมาก"
+    ]
+   },
+   {
+    "fig": "matCrayons",
+    "name": [
+     "Crayons",
+     "สีเทียน"
+    ],
+    "best": false,
+    "good": [
+     "Cheap. Bright colours.",
+     "ราคาถูก สีสด"
+    ],
+    "bad": [
+     "Hard to make soft shading.",
+     "แรเงาให้นุ่มนวลได้ยาก"
+    ]
+   },
+   {
+    "fig": "matWatercolours",
+    "name": [
+     "Watercolours",
+     "สีน้ำ"
+    ],
+    "best": false,
+    "good": [
+     "Beautiful soft colours. Good for painting light and shadow.",
+     "สีสวยนุ่มนวล เหมาะกับการระบายแสงและเงา"
+    ],
+    "bad": [
+     "You need a brush, water and a cloth. Thin paper can get wet and wrinkly.",
+     "ต้องมีพู่กัน น้ำ และผ้า กระดาษบางอาจเปียกและย่น"
+    ]
+   }
+  ],
+  "why": [
+   "⭐ Recommended for Unit 3: colour pencils. They are the cheapest and the easiest way to shade light, medium and dark.",
+   "⭐ แนะนำสำหรับหน่วยที่ 3: สีไม้ เพราะราคาถูกที่สุด และแรเงาอ่อน กลาง เข้ม ได้ง่ายที่สุด"
+  ],
+  "teacher": [
+   {
+    "fig": "matTorch",
+    "name": [
+     "Teacher: a torch (phone light)",
+     "ครู: ไฟฉาย (ไฟจากโทรศัพท์)"
+    ],
+    "note": [
+     "For the Torch demo with a ball and a box.",
+     "ใช้สาธิตกับลูกบอลและกล่อง"
+    ]
+   }
+  ]
+ },
+ "vocabPage": 43,
+ "vocab": [
+  [
+   "Convert",
+   "(n.), (v.)",
+   "ผู้ที่เปลี่ยนความเห็น ทำให้เปลี่ยนไปเป็น",
+   [
+    "Shading can convert a flat picture to 3D.",
+    "การแรเงาเปลี่ยนภาพแบนให้เป็น 3 มิติได้"
+   ],
+   "🔄"
+  ],
+  [
+   "Dimensional",
+   "(adj.)",
+   "เกี่ยวกับขนาดที่มี 3 มิติ (กว้าง สูง ลึก)",
+   [
+    "A box is three dimensional.",
+    "กล่องเป็นสามมิติ"
+   ],
+   "🧊"
+  ],
+  [
+   "Direction",
+   "(n.)",
+   "ทิศทาง แนวโน้ม",
+   [
+    "Look at the direction of the light.",
+    "ดูทิศทางของแสง"
+   ],
+   "🧭"
+  ],
+  [
+   "Extraordinary",
+   "(adj.)",
+   "พิเศษ ผิดธรรมดา",
+   [
+    "A purple sun is extraordinary.",
+    "ดวงอาทิตย์สีม่วงแปลกไม่ธรรมดา"
+   ],
+   "🌟"
+  ],
+  [
+   "Geography",
+   "(n.)",
+   "ภูมิศาสตร์",
+   [
+    "Thailand has rice fields and mountains.",
+    "ประเทศไทยมีทุ่งนาและภูเขา"
+   ],
+   "🗺️"
+  ],
+  [
+   "Harmonious",
+   "(adj.)",
+   "ซึ่งเข้ากันได้ ซึ่งกลมกลืนกัน",
+   [
+    "All shadows go one way. It looks harmonious.",
+    "เงาทุกอันไปทางเดียว ภาพดูกลมกลืน"
+   ],
+   "🎶"
+  ],
+  [
+   "Imagination",
+   "(n.)",
+   "จินตนาการ",
+   [
+    "Use your imagination!",
+    "ใช้จินตนาการของเรา"
+   ],
+   "💭"
+  ],
+  [
+   "Important",
+   "(adj.)",
+   "สำคัญ",
+   [
+    "Light is important.",
+    "แสงสำคัญ"
+   ],
+   "❗"
+  ],
+  [
+   "Innovation",
+   "(n.)",
+   "นวัตกรรม การสร้างสรรค์สิ่งใหม่ ๆ",
+   [
+    "A new idea is an innovation.",
+    "ความคิดใหม่คือนวัตกรรม"
+   ],
+   "💡"
+  ],
+  [
+   "Realistic",
+   "(adj.)",
+   "เกี่ยวกับความจริง ซึ่งปฏิบัติได้จริง ซึ่งสมเหตุสมผล",
+   [
+    "The apple looks realistic.",
+    "แอปเปิลดูเหมือนจริง"
+   ],
+   "🍎"
+  ],
+  [
+   "Reflect",
+   "(v.)",
+   "ส่องกลับ สะท้อนกลับ",
+   [
+    "A mirror reflects light.",
+    "กระจกสะท้อนแสง"
+   ],
+   "🪞"
+  ],
+  [
+   "Scenery",
+   "(n.)",
+   "ทิวทัศน์ ทัศนียภาพ",
+   [
+    "I draw the beach scenery.",
+    "ฉันวาดทิวทัศน์ชายหาด"
+   ],
+   "🏞️"
+  ],
+  [
+   "Shadow",
+   "(n.), (v.)",
+   "เงา ร่มเงา",
+   [
+    "The tree has a long shadow.",
+    "ต้นไม้มีเงายาว"
+   ],
+   "🌑"
+  ],
+  [
+   "Surface",
+   "(n.), (v.)",
+   "พื้นผิว ผิวภายนอก ปรากฏบนพื้นผิว เปิดเผย",
+   [
+    "The ball has a smooth surface.",
+    "ลูกบอลมีพื้นผิวเรียบ"
+   ],
+   "🟫"
+  ],
+  [
+   "Surreal",
+   "(adj.)",
+   "เหมือนฝัน เกี่ยวกับการนึกฝัน เหนือความจริง",
+   [
+    "A flying fish house is surreal.",
+    "บ้านปลาที่บินได้เป็นภาพเหนือจริง"
+   ],
+   "🌀"
+  ]
+ ],
+ "slides": [
+  {
+   "page": 44,
+   "routine": [
+    "UNIT 3",
+    "หน่วยที่ 3"
+   ],
+   "title": [
+    "From 2D to 3D",
+    "จาก 2 มิติ สู่ 3 มิติ"
+   ],
+   "lines": [
+    [
+     "Light and shadow",
+     "แสงและเงา"
+    ],
+    [
+     "We learn to make flat pictures look real.",
+     "เราจะเรียนทำภาพแบนให้ดูเหมือนจริง"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "flatToCube"
+    }
+   ]
+  },
+  {
+   "page": 44,
+   "routine": [
+    "THINK",
+    "คิด"
+   ],
+   "title": [
+    "The big question",
+    "คำถามสำคัญ"
+   ],
+   "lines": [
+    [
+     "How can you draw a 2D picture in 3D?",
+     "เราจะวาดภาพ 2 มิติ ให้เป็น 3 มิติ ได้อย่างไร"
+    ],
+    [
+     "We need two things:",
+     "เราต้องใช้ 2 อย่าง"
+    ],
+    [
+     "1. Lines",
+     "1. เส้น"
+    ],
+    [
+     "2. Light and shadow",
+     "2. แสงและเงา"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "cubeBeforeAfter"
+    }
+   ]
+  },
+  {
+   "page": 45,
+   "routine": [
+    "LOOK AND COMPARE",
+    "ดูและเปรียบเทียบ"
+   ],
+   "title": [
+    "Flat shape or solid form?",
+    "รูปร่างแบน หรือรูปทรงตัน"
+   ],
+   "lines": [
+    [
+     "A circle is flat. A sphere is round like a ball.",
+     "วงกลมแบน ทรงกลมกลมเหมือนลูกบอล"
+    ],
+    [
+     "A square is flat. A cube is like a box.",
+     "สี่เหลี่ยมจัตุรัสแบน ลูกบาศก์เหมือนกล่อง"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "shapesForms",
+     "cap": [
+      "Circle → Sphere · Square → Cube",
+      "วงกลม → ทรงกลม · สี่เหลี่ยมจัตุรัส → ลูกบาศก์"
+     ]
+    }
+   ]
+  },
+  {
+   "page": 45,
+   "routine": [
+    "LOOK AND COMPARE",
+    "ดูและเปรียบเทียบ"
+   ],
+   "title": [
+    "What is depth?",
+    "ความลึกคืออะไร"
+   ],
+   "lines": [
+    [
+     "2D picture: width and length.",
+     "ภาพ 2 มิติ: กว้างและยาว"
+    ],
+    [
+     "3D picture: width, length and depth.",
+     "ภาพ 3 มิติ: กว้าง ยาว และลึก"
+    ],
+    [
+     "Depth goes from front to back.",
+     "ความลึกคือระยะจากด้านหน้าถึงด้านหลัง"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "dims",
+     "cap": [
+      "W = width · L = length · D = depth",
+      "W = กว้าง · L = ยาว · D = ลึก"
+     ]
+    }
+   ]
+  },
+  {
+   "page": 45,
+   "routine": [
+    "BOOK PICTURE",
+    "ภาพในหนังสือ"
+   ],
+   "title": [
+    "A line drawing becomes 3D",
+    "ภาพลายเส้นกลายเป็น 3 มิติ"
+   ],
+   "lines": [
+    [
+     "Look at the banana and the fruit in your book.",
+     "ดูกล้วยและผลไม้ในหนังสือ"
+    ],
+    [
+     "New lines show the round shape.",
+     "เส้นใหม่ช่วยแสดงความกลม"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "t1b",
+     "img": "img/unit3/banana.jpg",
+     "cap": [
+      "Banana: flat → 3D",
+      "กล้วย: แบน → 3 มิติ"
+     ]
+    },
+    {
+     "fig": "sort6",
+     "img": "img/unit3/mangosteen.jpg",
+     "cap": [
+      "Mangosteen: flat → 3D",
+      "มังคุด: แบน → 3 มิติ"
+     ]
+    }
+   ]
+  },
+  {
+   "page": 45,
+   "routine": [
+    "BOOK PICTURE",
+    "ภาพในหนังสือ"
+   ],
+   "title": [
+    "A square becomes a cube",
+    "สี่เหลี่ยมกลายเป็นลูกบาศก์"
+   ],
+   "lines": [
+    [
+     "Draw a square. Draw a second square behind it.",
+     "วาดสี่เหลี่ยม แล้ววาดสี่เหลี่ยมอีกรูปไว้ข้างหลัง"
+    ],
+    [
+     "Join the corners. Now it is a cube!",
+     "ลากเส้นเชื่อมมุม ตอนนี้เป็นลูกบาศก์แล้ว"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "squareToCube"
+    }
+   ],
+   "tip": [
+    "See the Draw along: Cube.",
+    "ดูวาดตามทีละขั้น: ลูกบาศก์"
+   ]
+  },
+  {
+   "page": 46,
+   "routine": [
+    "LOOK AND COMPARE",
+    "ดูและเปรียบเทียบ"
+   ],
+   "title": [
+    "Shading makes it 3D",
+    "การแรเงาทำให้เป็น 3 มิติ"
+   ],
+   "lines": [
+    [
+     "We can convert a line drawing to 3D with shading.",
+     "เราเปลี่ยนภาพลายเส้นเป็น 3 มิติได้ด้วยการแรเงา"
+    ],
+    [
+     "After shading, it looks realistic.",
+     "หลังแรเงา ภาพดูเหมือนจริง"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "shade3d"
+    }
+   ]
+  },
+  {
+   "page": 46,
+   "routine": [
+    "POINT AND NAME",
+    "ชี้และบอกชื่อ"
+   ],
+   "title": [
+    "Geometric forms",
+    "รูปทรงเรขาคณิต"
+   ],
+   "lines": [
+    [
+     "Point and name each form.",
+     "ชี้และบอกชื่อรูปทรงแต่ละรูป"
+    ],
+    [
+     "Sphere · Cube · Cylinder · Pyramid · Cone",
+     "ทรงกลม · ลูกบาศก์ · ทรงกระบอก · พีระมิด · กรวย"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "forms"
+    }
+   ]
+  },
+  {
+   "page": 47,
+   "routine": [
+    "LOOK AND COMPARE",
+    "ดูและเปรียบเทียบ"
+   ],
+   "title": [
+    "Flat is light. Solid is heavy!",
+    "ของแบนเบา ของตันหนัก"
+   ],
+   "lines": [
+    [
+     "A paper circle is flat and light.",
+     "วงกลมกระดาษแบนและเบา"
+    ],
+    [
+     "A ball and a box are solid. They have thickness.",
+     "ลูกบอลและกล่องเป็นก้อน มีความหนา"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "shapesForms",
+     "img": "img/unit3/boy-2d-3d.jpg"
+    }
+   ]
+  },
+  {
+   "page": 47,
+   "routine": [
+    "LOOK AND COMPARE",
+    "ดูและเปรียบเทียบ"
+   ],
+   "title": [
+    "Near and far",
+    "ใกล้และไกล"
+   ],
+   "lines": [
+    [
+     "Near things look big.",
+     "ของที่อยู่ใกล้ดูใหญ่"
+    ],
+    [
+     "Far things look small.",
+     "ของที่อยู่ไกลดูเล็ก"
+    ],
+    [
+     "This shows depth.",
+     "นี่คือการแสดงความลึก"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "nearFar"
+    }
+   ]
+  },
+  {
+   "page": 48,
+   "routine": [
+    "TORCH DEMO",
+    "สาธิตด้วยไฟฉาย"
+   ],
+   "title": [
+    "The side facing the light",
+    "ด้านที่หันเข้าหาแสง"
+   ],
+   "lines": [
+    [
+     "The side facing the light is bright.",
+     "ด้านที่หันเข้าหาแสงสว่าง"
+    ],
+    [
+     "Sides with little light are dark.",
+     "ด้านที่ได้แสงน้อยมืด"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "lightSides"
+    },
+    {
+     "fig": "sphere:left",
+     "img": "img/unit3/oranges-candle.jpg",
+     "cap": [
+      "Far from the light = darker",
+      "ไกลแสง = มืดกว่า"
+     ]
+    }
+   ],
+   "tip": [
+    "Teacher: shine a phone torch on a ball. Move it around.",
+    "ครู: ส่องไฟฉายโทรศัพท์ไปที่ลูกบอล แล้วเลื่อนไปรอบ ๆ"
+   ]
+  },
+  {
+   "page": 48,
+   "routine": [
+    "FINGER VOTE",
+    "ชูนิ้วเลือกคำตอบ"
+   ],
+   "title": [
+    "Light from the right. Which side is bright?",
+    "แสงมาจากทางขวา ด้านไหนสว่าง"
+   ],
+   "lines": [
+    [
+     "A = 1 finger · B = 2 fingers",
+     "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "voteRightQ"
+    }
+   ],
+   "vote": {
+    "options": [
+     [
+      "A. Left",
+      "A. ซ้าย"
+     ],
+     [
+      "B. Right",
+      "B. ขวา"
+     ]
+    ],
+    "answer": 1,
+    "fig": "voteRightA",
+    "why": [
+     "The light is on the right, so the right side is bright.",
+     "แสงอยู่ทางขวา ด้านขวาจึงสว่าง"
+    ]
+   }
+  },
+  {
+   "page": 48,
+   "routine": [
+    "POINT AND NAME",
+    "ชี้และบอกชื่อ"
+   ],
+   "title": [
+    "Light can come from many sides",
+    "แสงมาได้จากหลายทิศทาง"
+   ],
+   "lines": [
+    [
+     "Point to the brightest spot.",
+     "ชี้จุดที่สว่างที่สุด"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "sphere:top",
+     "cap": [
+      "Top",
+      "บน"
+     ]
+    },
+    {
+     "fig": "sphere:left",
+     "cap": [
+      "Left",
+      "ซ้าย"
+     ]
+    },
+    {
+     "fig": "sphere:right",
+     "cap": [
+      "Right",
+      "ขวา"
+     ]
+    },
+    {
+     "fig": "sphere:below",
+     "cap": [
+      "Below",
+      "ล่าง"
+     ]
+    },
+    {
+     "fig": "sphere:behind",
+     "cap": [
+      "Behind",
+      "หลัง"
+     ]
+    },
+    {
+     "fig": "sphere:front",
+     "cap": [
+      "Front",
+      "หน้า"
+     ]
+    }
+   ],
+   "layout": "grid6"
+  },
+  {
+   "page": 49,
+   "routine": [
+    "PENCIL PRACTICE",
+    "ฝึกใช้ดินสอ"
+   ],
+   "title": [
+    "Technique 1: Line shading",
+    "เทคนิคที่ 1: แรเงาด้วยเส้น"
+   ],
+   "lines": [
+    [
+     "Use three levels: light, medium, heavy.",
+     "ใช้ 3 ระดับ: อ่อน กลาง เข้ม"
+    ],
+    [
+     "Lines close together look dark.",
+     "เส้นยิ่งชิดกัน ยิ่งดูเข้ม"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "hatch3",
+     "cap": [
+      "Light · Medium · Heavy",
+      "อ่อน · กลาง · เข้ม"
+     ]
+    }
+   ]
+  },
+  {
+   "page": 49,
+   "routine": [
+    "COLOUR SHADING",
+    "การลงสีแสงเงา"
+   ],
+   "title": [
+    "Technique 2: Painting light and shadow",
+    "เทคนิคที่ 2: ระบายสีแสงและเงา"
+   ],
+   "lines": [
+    [
+     "1. Sketch  2. Base colour  3. Blend  4. Shadow",
+     "1. ร่างภาพ  2. ลงสีพื้น  3. ไล่สี  4. เพิ่มเงา"
+    ],
+    [
+     "Use a light colour on the side facing the light.",
+     "ด้านรับแสงใช้สีอ่อน"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "paintStages",
+     "img": "img/unit3/mango-stages.jpg"
+    }
+   ]
+  },
+  {
+   "page": 50,
+   "routine": [
+    "COLOUR SHADING",
+    "การลงสีแสงเงา"
+   ],
+   "title": [
+    "Techniques 3 and 4: Light and heavy colours",
+    "เทคนิคที่ 3 และ 4: สีอ่อนและสีเข้ม"
+   ],
+   "lines": [
+    [
+     "1 = light colour · 2 = medium · 3 = heavy colour",
+     "1 = สีอ่อน · 2 = สีกลาง · 3 = สีเข้ม"
+    ],
+    [
+     "Light top. Medium front. Dark side.",
+     "ด้านบนอ่อน ด้านหน้ากลาง ด้านข้างเข้ม"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "valueBlock"
+    },
+    {
+     "fig": "boxValues"
+    }
+   ]
+  },
+  {
+   "page": 51,
+   "routine": [
+    "PENCIL PRACTICE",
+    "ฝึกใช้ดินสอ"
+   ],
+   "title": [
+    "Technique 5: One black pencil",
+    "เทคนิคที่ 5: ดินสอดำแท่งเดียว"
+   ],
+   "lines": [
+    [
+     "Press lightly first.",
+     "ลงน้ำหนักเบา ๆ ก่อน"
+    ],
+    [
+     "Then build up the dark side.",
+     "แล้วค่อยเพิ่มความเข้มด้านมืด"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "pencilScale"
+    },
+    {
+     "fig": "sort4",
+     "img": "img/unit3/puppy-pencil.jpg"
+    }
+   ]
+  },
+  {
+   "page": 52,
+   "routine": [
+    "LOOK AND COMPARE",
+    "ดูและเปรียบเทียบ"
+   ],
+   "title": [
+    "A shadow on the ground",
+    "เงาที่ทอดลงบนพื้น"
+   ],
+   "lines": [
+    [
+     "Light cannot go through the ball.",
+     "แสงผ่านลูกบอลไม่ได้"
+    ],
+    [
+     "So there is a cast shadow on the ground.",
+     "จึงเกิดเงาตกทอดบนพื้น"
+    ],
+    [
+     "Light from the left. Shadow to the right.",
+     "แสงมาจากซ้าย เงาทอดไปทางขวา"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "castShadow"
+    }
+   ]
+  },
+  {
+   "page": 52,
+   "routine": [
+    "FINGER VOTE",
+    "ชูนิ้วเลือกคำตอบ"
+   ],
+   "title": [
+    "Light from the left. Where is the shadow?",
+    "แสงมาจากทางซ้าย เงาอยู่ตรงไหน"
+   ],
+   "lines": [
+    [
+     "A = 1 finger · B = 2 fingers",
+     "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "voteShadowQ"
+    }
+   ],
+   "vote": {
+    "options": [
+     [
+      "A. Left",
+      "A. ซ้าย"
+     ],
+     [
+      "B. Right",
+      "B. ขวา"
+     ]
+    ],
+    "answer": 1,
+    "fig": "voteShadowA",
+    "why": [
+     "The shadow goes away from the light.",
+     "เงาไปทางตรงข้ามกับแสง"
+    ]
+   }
+  },
+  {
+   "page": 52,
+   "routine": [
+    "LOOK AND COMPARE",
+    "ดูและเปรียบเทียบ"
+   ],
+   "title": [
+    "No shadow or a shadow?",
+    "ไม่มีเงา หรือมีเงา"
+   ],
+   "lines": [
+    [
+     "Without a shadow, the ball seems to float.",
+     "ถ้าไม่มีเงา ลูกบอลดูเหมือนลอยอยู่"
+    ],
+    [
+     "The cast shadow makes it realistic.",
+     "เงาตกทอดทำให้ดูเหมือนจริง"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "noShadow",
+     "cap": [
+      "No shadow",
+      "ไม่มีเงา"
+     ]
+    },
+    {
+     "fig": "castShadow",
+     "cap": [
+      "Cast shadow",
+      "มีเงาตกทอด"
+     ]
+    },
+    {
+     "fig": "veg",
+     "img": "img/unit3/veg-still-life.jpg",
+     "cap": [
+      "Vegetables with shadows",
+      "ผักที่มีเงา"
+     ]
+    }
+   ]
+  },
+  {
+   "page": 53,
+   "routine": [
+    "PICTURE DETECTIVES",
+    "นักสืบภาพ"
+   ],
+   "title": [
+    "The beach in the book",
+    "ชายหาดในหนังสือ"
+   ],
+   "lines": [
+    [
+     "Scenery shows places: rice fields, forest, sea.",
+     "ภาพทิวทัศน์แสดงสถานที่ เช่น ทุ่งนา ป่า ทะเล"
+    ],
+    [
+     "What is near? What is far?",
+     "อะไรอยู่ใกล้ อะไรอยู่ไกล"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "scenery",
+     "img": "img/unit3/beach.jpg"
+    }
+   ]
+  },
+  {
+   "page": 53,
+   "routine": [
+    "PICTURE DETECTIVES",
+    "นักสืบภาพ"
+   ],
+   "title": [
+    "One light direction",
+    "แสงมาจากทิศเดียวกัน"
+   ],
+   "lines": [
+    [
+     "One sun. All shadows go the same way.",
+     "ดวงอาทิตย์ดวงเดียว เงาทุกอันไปทางเดียวกัน"
+    ],
+    [
+     "This is harmonious.",
+     "แบบนี้เรียกว่ากลมกลืน"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "scenery",
+     "cap": [
+      "✅ Harmonious",
+      "✅ กลมกลืน"
+     ]
+    },
+    {
+     "fig": "sceneryWrong",
+     "cap": [
+      "❌ Shadows go different ways",
+      "❌ เงาไปคนละทาง"
+     ]
+    }
+   ]
+  },
+  {
+   "page": 54,
+   "routine": [
+    "EXTENSION",
+    "กิจกรรมเสริม"
+   ],
+   "title": [
+    "Real light or imaginary light?",
+    "แสงแบบจริง หรือแสงจากจินตนาการ"
+   ],
+   "lines": [
+    [
+     "Use your imagination!",
+     "ใช้จินตนาการของเรา"
+    ],
+    [
+     "Surreal art is like a dream.",
+     "ศิลปะเหนือจริงเหมือนความฝัน"
+    ],
+    [
+     "What if the light were green?",
+     "ถ้าแสงเป็นสีเขียวล่ะ"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "veg",
+     "img": "img/unit3/veg-still-life.jpg",
+     "cap": [
+      "Real light",
+      "แสงแบบจริง"
+     ]
+    },
+    {
+     "fig": "surreal",
+     "img": "img/unit3/surreal-fruit.jpg",
+     "cap": [
+      "Imaginary light",
+      "แสงจากจินตนาการ"
+     ]
+    }
+   ]
+  },
+  {
+   "page": 54,
+   "routine": [
+    "FINGER VOTE",
+    "ชูนิ้วเลือกคำตอบ"
+   ],
+   "title": [
+    "Which picture is surreal?",
+    "ภาพไหนเหนือจริง"
+   ],
+   "lines": [
+    [
+     "A = 1 finger · B = 2 fingers",
+     "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "t9c",
+     "cap": [
+      "A",
+      "A"
+     ]
+    },
+    {
+     "fig": "glassFruit",
+     "cap": [
+      "B",
+      "B"
+     ]
+    }
+   ],
+   "vote": {
+    "options": [
+     [
+      "A",
+      "A"
+     ],
+     [
+      "B",
+      "B"
+     ]
+    ],
+    "answer": 1,
+    "why": [
+     "B has rainbow light. It is like a dream.",
+     "ภาพ B มีแสงสีรุ้ง เหมือนความฝัน"
+    ]
+   }
+  },
+  {
+   "page": 44,
+   "routine": [
+    "UNIT REVIEW",
+    "ทบทวนบทเรียน"
+   ],
+   "title": [
+    "What helps a picture look real?",
+    "อะไรช่วยให้ภาพดูเหมือนจริง"
+   ],
+   "lines": [
+    [
+     "A = 1 finger · B = 2 fingers",
+     "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "castShadow"
+    }
+   ],
+   "vote": {
+    "options": [
+     [
+      "A. Light and shadow",
+      "A. แสงและเงา"
+     ],
+     [
+      "B. Draw it bigger",
+      "B. วาดให้ใหญ่ขึ้น"
+     ]
+    ],
+    "answer": 0,
+    "why": [
+     "Light, shadow and a cast shadow make it look real.",
+     "แสง เงา และเงาตกทอด ทำให้ภาพดูเหมือนจริง"
+    ]
+   }
+  }
+ ],
+ "guides": [
+  {
+   "id": "cube",
+   "page": 45,
+   "title": [
+    "Cube from a square",
+    "ลูกบาศก์จากสี่เหลี่ยม"
+   ],
+   "steps": [
+    [
+     "Draw a square.",
+     "วาดรูปสี่เหลี่ยมจัตุรัส"
+    ],
+    [
+     "Draw the same square a little up and to the right.",
+     "วาดสี่เหลี่ยมขนาดเท่ากัน เลื่อนขึ้นและไปทางขวานิดหน่อย"
+    ],
+    [
+     "Join the 4 corners with lines.",
+     "ลากเส้นเชื่อมมุมทั้ง 4 มุม"
+    ],
+    [
+     "Rub out the lines at the back.",
+     "ลบเส้นที่อยู่ด้านหลัง"
+    ],
+    [
+     "Find the light. Top = light, front = medium, side = dark.",
+     "ดูแสง ด้านบน = อ่อน ด้านหน้า = กลาง ด้านข้าง = เข้ม"
+    ],
+    [
+     "Add a cast shadow away from the light.",
+     "เติมเงาตกทอดไปทางตรงข้ามกับแสง"
+    ]
+   ]
+  },
+  {
+   "id": "ball",
+   "page": 48,
+   "title": [
+    "A shaded ball",
+    "ลูกบอลแรเงา"
+   ],
+   "steps": [
+    [
+     "Draw a circle.",
+     "วาดวงกลม"
+    ],
+    [
+     "Draw a small sun. Mark the bright spot near the sun.",
+     "วาดดวงอาทิตย์เล็ก ๆ แล้วทำเครื่องหมายจุดสว่างใกล้ดวงอาทิตย์"
+    ],
+    [
+     "Colour lightly. Keep the bright spot white.",
+     "ลงสีเบา ๆ เว้นจุดสว่างไว้เป็นสีขาว"
+    ],
+    [
+     "Make the far side darker: medium, then heavy.",
+     "ทำด้านที่ไกลแสงให้เข้มขึ้น: กลาง แล้วเข้ม"
+    ],
+    [
+     "Add a cast shadow on the ground.",
+     "เติมเงาตกทอดบนพื้น"
+    ]
+   ]
+  },
+  {
+   "id": "cup",
+   "page": 46,
+   "title": [
+    "A cup (cylinder)",
+    "แก้วน้ำ (ทรงกระบอก)"
+   ],
+   "steps": [
+    [
+     "Draw an oval for the top.",
+     "วาดวงรีเป็นปากแก้ว"
+    ],
+    [
+     "Draw two straight lines down.",
+     "ลากเส้นตรง 2 เส้นลงมา"
+    ],
+    [
+     "Draw a curve at the bottom. Add a handle.",
+     "วาดเส้นโค้งที่ก้นแก้ว แล้วเติมหูจับ"
+    ],
+    [
+     "Light side = light colour. Far side = dark colour.",
+     "ด้านรับแสง = สีอ่อน ด้านไกลแสง = สีเข้ม"
+    ],
+    [
+     "Add a cast shadow.",
+     "เติมเงาตกทอด"
+    ]
+   ]
+  },
+  {
+   "id": "lines",
+   "page": 49,
+   "title": [
+    "Line shading practice",
+    "ฝึกแรเงาด้วยเส้น"
+   ],
+   "steps": [
+    [
+     "Box 1: a few lines far apart. Light.",
+     "กล่อง 1: เส้นน้อย ห่างกัน อ่อน"
+    ],
+    [
+     "Box 2: more lines, closer. Medium.",
+     "กล่อง 2: เส้นมากขึ้น ชิดขึ้น กลาง"
+    ],
+    [
+     "Box 3: many lines, very close. Heavy.",
+     "กล่อง 3: เส้นมาก ชิดกันมาก เข้ม"
+    ],
+    [
+     "Now use all three on a ball!",
+     "ใช้ทั้ง 3 ระดับกับลูกบอล"
+    ]
+   ]
+  },
+  {
+   "id": "apple",
+   "page": 49,
+   "title": [
+    "An apple with colour pencils",
+    "แอปเปิลด้วยสีไม้"
+   ],
+   "steps": [
+    [
+     "Sketch the apple, the stem and the leaf.",
+     "ร่างแอปเปิล ก้าน และใบ"
+    ],
+    [
+     "Base colour: colour it all light red.",
+     "ลงสีพื้น: ระบายสีแดงอ่อนทั้งลูก"
+    ],
+    [
+     "Blend: darker red away from the light. Keep a white spot.",
+     "ไล่สี: แดงเข้มขึ้นด้านที่ไกลแสง เว้นจุดขาวไว้"
+    ],
+    [
+     "Add the cast shadow.",
+     "เติมเงาตกทอด"
+    ]
+   ]
+  },
+  {
+   "id": "heart",
+   "page": 56,
+   "title": [
+    "A 3D heart",
+    "หัวใจ 3 มิติ"
+   ],
+   "steps": [
+    [
+     "Draw a big heart.",
+     "วาดหัวใจใหญ่ ๆ"
+    ],
+    [
+     "Draw the sun. Mark the bright spot.",
+     "วาดดวงอาทิตย์ ทำเครื่องหมายจุดสว่าง"
+    ],
+    [
+     "Colour it light pink.",
+     "ระบายสีชมพูอ่อน"
+    ],
+    [
+     "Make the edges far from the light darker.",
+     "ทำขอบที่ไกลแสงให้เข้มขึ้น"
+    ],
+    [
+     "Add a white bright spot and a shadow.",
+     "เติมจุดสว่างสีขาวและเงา"
+    ]
+   ]
+  },
+  {
+   "id": "beach",
+   "page": 53,
+   "title": [
+    "The beach scene",
+    "ภาพทิวทัศน์ชายหาด"
+   ],
+   "steps": [
+    [
+     "Sea and shore: draw the horizon and a curved shore.",
+     "ทะเลและชายฝั่ง: วาดเส้นขอบฟ้าและชายฝั่งโค้ง"
+    ],
+    [
+     "Big shapes first: big palm, girl, small palms far away.",
+     "วาดรูปใหญ่ก่อน: ต้นมะพร้าวใหญ่ เด็กผู้หญิง ต้นเล็กอยู่ไกล"
+    ],
+    [
+     "Add coconuts, a face and a little crab.",
+     "เติมมะพร้าว ใบหน้า และปูตัวเล็ก"
+    ],
+    [
+     "Base colours: sea, sand, tree and girl.",
+     "ลงสีพื้น: ทะเล ทราย ต้นไม้ และเด็กผู้หญิง"
+    ],
+    [
+     "Light and shadow: light left, dark right, shadows on the sand.",
+     "แสงและเงา: ซ้ายสว่าง ขวามืด เงาทอดบนทราย"
+    ]
+   ]
+  },
+  {
+   "id": "circle",
+   "page": 57,
+   "title": [
+    "Activity 4: the circle becomes 3D",
+    "กิจกรรมที่ 4: วงกลมกลายเป็น 3 มิติ"
+   ],
+   "steps": [
+    [
+     "Look at the circle in your book (p.57).",
+     "ดูวงกลมในหนังสือ (หน้า 57)"
+    ],
+    [
+     "Choose where the light comes from. Draw a small sun.",
+     "เลือกว่าแสงมาจากทางไหน วาดดวงอาทิตย์เล็ก ๆ"
+    ],
+    [
+     "What can it be? An orange, a ball, a planet...",
+     "จะเป็นอะไรดี ส้ม ลูกบอล ดาวเคราะห์..."
+    ],
+    [
+     "Shade it: light, medium and heavy.",
+     "แรเงา: อ่อน กลาง และเข้ม"
+    ],
+    [
+     "Add a cast shadow. Write a title.",
+     "เติมเงาตกทอด แล้วเขียนชื่อภาพ"
+    ]
+   ]
+  }
+ ],
+ "explore": {
+  "tools": [
+   {
+    "id": "light",
+    "name": [
+     "Move the light",
+     "เลื่อนแสง"
+    ],
+    "tip": [
+     "Drag the sun. Watch the bright side and the shadow move.",
+     "ลากดวงอาทิตย์ ดูด้านสว่างและเงาเปลี่ยนไป"
+    ]
+   },
+   {
+    "id": "depth",
+    "name": [
+     "2D to 3D",
+     "จาก 2 มิติ เป็น 3 มิติ"
+    ],
+    "tip": [
+     "Move the slider. The flat shape becomes 3D.",
+     "เลื่อนแถบ รูปแบนกลายเป็น 3 มิติ"
+    ]
+   },
+   {
+    "id": "shade",
+    "name": [
+     "Light, medium, heavy",
+     "อ่อน กลาง เข้ม"
+    ],
+    "tip": [
+     "Tap a level. See the lines get closer.",
+     "แตะระดับ ดูเส้นชิดกันมากขึ้น"
+    ]
+   }
+  ],
+  "facts": [
+   [
+    "2D = width and length. 3D = width, length and depth.",
+    "2 มิติ = กว้างและยาว 3 มิติ = กว้าง ยาว และลึก"
+   ],
+   [
+    "The side facing the light is bright.",
+    "ด้านที่หันเข้าหาแสงสว่าง"
+   ],
+   [
+    "The shadow goes away from the light.",
+    "เงาไปทางตรงข้ามกับแสง"
+   ],
+   [
+    "Shade in three levels: light, medium, heavy.",
+    "แรเงา 3 ระดับ: อ่อน กลาง เข้ม"
+   ]
+  ],
+  "mistakes": [
+   [
+    "The side near the light is dark. ❌",
+    "ด้านใกล้แสงมืด ❌"
+   ],
+   [
+    "The shadow is on the same side as the light. ❌",
+    "เงาอยู่ด้านเดียวกับแสง ❌"
+   ],
+   [
+    "Shadows go different ways in one picture. ❌",
+    "เงาไปคนละทางในภาพเดียวกัน ❌"
+   ],
+   [
+    "No cast shadow, so it floats. ❌",
+    "ไม่มีเงาตกทอด วัตถุจึงดูลอย ❌"
+   ]
+  ]
+ },
+ "activities": [
+  {
+   "num": 1,
+   "page": 55,
+   "marks": 20,
+   "kind": "sort",
+   "title": [
+    "2D or 3D? Sort the pictures",
+    "2 มิติ หรือ 3 มิติ แยกภาพ"
+   ],
+   "task": [
+    "Look at the 8 pictures. Write the numbers in the 2D group or the 3D group.",
+    "ดูภาพทั้ง 8 ภาพ เขียนหมายเลขในกลุ่ม 2 มิติ หรือกลุ่ม 3 มิติ"
+   ],
+   "steps": [
+    [
+     "Only lines or one flat colour? → 2D",
+     "มีแค่เส้นหรือสีเรียบสีเดียว → 2 มิติ"
+    ],
+    [
+     "Light parts, dark parts and depth? → 3D",
+     "มีส่วนสว่าง ส่วนมืด และความลึก → 3 มิติ"
+    ]
+   ],
+   "items": [
+    [
+     "sort1",
+     "2D",
+     [
+      "Octagon",
+      "รูปแปดเหลี่ยม"
+     ]
+    ],
+    [
+     "sort2",
+     "3D",
+     [
+      "Apple",
+      "แอปเปิล"
+     ]
+    ],
+    [
+     "sort3",
+     "2D",
+     [
+      "Umbrella",
+      "ร่ม"
+     ]
+    ],
+    [
+     "sort4",
+     "3D",
+     [
+      "Puppy",
+      "ลูกสุนัข"
+     ]
+    ],
+    [
+     "sort5",
+     "3D",
+     [
+      "Teapot",
+      "กาน้ำชา"
+     ]
+    ],
+    [
+     "sort6",
+     "2D",
+     [
+      "Circle",
+      "วงกลม"
+     ]
+    ],
+    [
+     "sort7",
+     "3D",
+     [
+      "Pyramid",
+      "พีระมิด"
+     ]
+    ],
+    [
+     "sort8",
+     "2D",
+     [
+      "Sun",
+      "ดวงอาทิตย์"
+     ]
+    ]
+   ],
+   "imgs": {
+    "sort2": "img/unit3/apple.jpg",
+    "sort5": "img/unit3/teapot.jpg"
+   },
+   "answer": [
+    "2D: 1, 3, 6, 8 · 3D: 2, 4, 5, 7",
+    "2 มิติ: 1, 3, 6, 8 · 3 มิติ: 2, 4, 5, 7"
+   ],
+   "scoring": [
+    "20 marks: 10 for the 2D group, 10 for the 3D group.",
+    "20 คะแนน: กลุ่ม 2 มิติ 10 คะแนน กลุ่ม 3 มิติ 10 คะแนน"
+   ]
+  },
+  {
+   "num": 2,
+   "page": 56,
+   "marks": 20,
+   "kind": "draw",
+   "guide": "cube",
+   "title": [
+    "Draw a 2D picture and a 3D picture",
+    "วาดภาพ 2 มิติ และภาพ 3 มิติ"
+   ],
+   "task": [
+    "Look around you. Draw one flat thing (2D) and one solid thing (3D). Write a title for each.",
+    "มองรอบ ๆ ตัว วาดของแบน 1 อย่าง (2 มิติ) และของที่เป็นก้อน 1 อย่าง (3 มิติ) เขียนชื่อภาพแต่ละภาพ"
+   ],
+   "steps": [
+    [
+     "2D: a flat thing, like a sheet of paper.",
+     "2 มิติ: ของแบน เช่น กระดาษหนึ่งแผ่น"
+    ],
+    [
+     "3D: a solid thing, like a pencil or a box.",
+     "3 มิติ: ของที่เป็นก้อน เช่น ดินสอ หรือกล่อง"
+    ],
+    [
+     "Shade the 3D picture: light, medium, dark.",
+     "แรเงาภาพ 3 มิติ: อ่อน กลาง เข้ม"
+    ],
+    [
+     "Write the titles.",
+     "เขียนชื่อภาพ"
+    ]
+   ],
+   "example": [
+    {
+     "fig": "t1d",
+     "cap": [
+      "2D: a sheet of paper",
+      "2 มิติ: กระดาษหนึ่งแผ่น"
+     ]
+    },
+    {
+     "fig": "matPencil",
+     "cap": [
+      "3D: a pencil",
+      "3 มิติ: ดินสอ"
+     ]
+    }
+   ],
+   "answer": [
+    "Book example: 2D = a single sheet of paper. 3D = a pencil.",
+    "ตัวอย่างในหนังสือ: 2 มิติ = กระดาษหนึ่งแผ่น 3 มิติ = ดินสอ"
+   ],
+   "scoring": [
+    "20 marks: 10 for each picture.",
+    "20 คะแนน: ภาพละ 10 คะแนน"
+   ]
+  },
+  {
+   "num": 3,
+   "page": 56,
+   "marks": 20,
+   "kind": "draw",
+   "guide": "ball",
+   "title": [
+    "Colour the line drawings to make them 3D",
+    "ระบายสีภาพลายเส้นให้เป็น 3 มิติ"
+   ],
+   "task": [
+    "Colour the two pictures in your book. Make them look 3D.",
+    "ระบายสีภาพ 2 ภาพในหนังสือ ให้ดูเป็น 3 มิติ"
+   ],
+   "steps": [
+    [
+     "Draw a small sun. Where is the light?",
+     "วาดดวงอาทิตย์เล็ก ๆ แสงอยู่ทางไหน"
+    ],
+    [
+     "Side facing the light: light colour.",
+     "ด้านที่หันเข้าหาแสง: สีอ่อน"
+    ],
+    [
+     "Other sides: darker colour.",
+     "ด้านอื่น: สีเข้มขึ้น"
+    ],
+    [
+     "Add a cast shadow.",
+     "เติมเงาตกทอด"
+    ]
+   ],
+   "answer": [
+    "Answers will vary. Light side is light, far side is dark, and there is a cast shadow.",
+    "คำตอบแตกต่างกันได้ ด้านรับแสงสีอ่อน ด้านไกลแสงสีเข้ม และมีเงาตกทอด"
+   ],
+   "scoring": [
+    "20 marks: 10 for each picture.",
+    "20 คะแนน: ภาพละ 10 คะแนน"
+   ]
+  },
+  {
+   "num": 4,
+   "page": 57,
+   "marks": 30,
+   "kind": "draw",
+   "guide": "circle",
+   "rubric": true,
+   "title": [
+    "Evaluation activity: add a 3D object",
+    "กิจกรรมประเมินผล: เติมวัตถุ 3 มิติ"
+   ],
+   "task": [
+    "Look at the circle in your book. Turn it into a 3D object from your imagination. Use light and shadow. Write a title.",
+    "ดูวงกลมในหนังสือ เปลี่ยนให้เป็นวัตถุ 3 มิติจากจินตนาการ ใช้แสงและเงา แล้วเขียนชื่อภาพ"
+   ],
+   "steps": [
+    [
+     "Choose the light. Draw a small sun.",
+     "เลือกทิศทางแสง วาดดวงอาทิตย์เล็ก ๆ"
+    ],
+    [
+     "What can the circle be? Think!",
+     "วงกลมจะเป็นอะไรได้บ้าง ลองคิด"
+    ],
+    [
+     "Shade: light, medium, heavy.",
+     "แรเงา: อ่อน กลาง เข้ม"
+    ],
+    [
+     "Add a cast shadow and a title.",
+     "เติมเงาตกทอดและชื่อภาพ"
+    ]
+   ],
+   "example": [
+    {
+     "fig": "idea4a",
+     "cap": [
+      "An orange",
+      "ส้ม"
+     ]
+    },
+    {
+     "fig": "idea4b",
+     "cap": [
+      "A planet",
+      "ดาวเคราะห์"
+     ]
+    },
+    {
+     "fig": "idea4c",
+     "cap": [
+      "The moon",
+      "ดวงจันทร์"
+     ]
+    }
+   ],
+   "answer": [
+    "Answers will vary. The teacher uses the Artwork Evaluation Form (p.58).",
+    "คำตอบแตกต่างกันได้ ครูใช้แบบประเมินผลงานศิลปะ (หน้า 58)"
+   ],
+   "scoring": [
+    "30 marks. The teacher uses the Artwork Evaluation Form (p.58).",
+    "30 คะแนน ครูใช้แบบประเมินผลงานศิลปะ (หน้า 58)"
+   ]
+  }
+ ],
+ "rubric": {
+  "title": [
+   "Artwork Evaluation Form",
+   "แบบประเมินผลงานศิลปะ"
+  ],
+  "cols": [
+   [
+    "Very good (6 marks)",
+    "ดีมาก (6 คะแนน)"
+   ],
+   [
+    "Good (4-5 marks)",
+    "ดี (4-5 คะแนน)"
+   ],
+   [
+    "Fair (2-3 marks)",
+    "พอใช้ (2-3 คะแนน)"
+   ],
+   [
+    "Need to be improved (1 mark)",
+    "ควรปรับปรุง (1 คะแนน)"
+   ]
+  ],
+  "rows": [
+   [
+    "Creativity",
+    "ความคิดสร้างสรรค์"
+   ],
+   [
+    "Willingness to work",
+    "ความตั้งใจในการทำงาน"
+   ],
+   [
+    "Beauty of artwork",
+    "ความสวยงามของผลงาน"
+   ],
+   [
+    "Using correct materials and equipment",
+    "การใช้วัสดุอุปกรณ์ถูกต้อง"
+   ],
+   [
+    "Neatness of the work",
+    "ความเรียบร้อยของผลงาน"
+   ]
+  ],
+  "levels": [
+   [
+    "21 - 25",
+    [
+     "Very good",
+     "ดีมาก"
+    ],
+    "4"
+   ],
+   [
+    "15 - 20",
+    [
+     "Good",
+     "ดี"
+    ],
+    "3"
+   ],
+   [
+    "8 - 14",
+    [
+     "Fair",
+     "พอใช้"
+    ],
+    "2"
+   ],
+   [
+    "1 - 7",
+    [
+     "Need to be improved",
+     "ควรปรับปรุง"
+    ],
+    "1"
+   ]
+  ]
+ },
+ "test": {
+  "pages": "p.59 to 61",
+  "questions": [
+   {
+    "page": 59,
+    "q": [
+     "Which choice shows a 3D sketch?",
+     "ข้อใดเป็นภาพร่าง 3 มิติ"
+    ],
+    "options": [
+     "fig:t1a",
+     "fig:t1b",
+     "fig:t1c",
+     "fig:t1d"
+    ],
+    "answer": 1,
+    "why": [
+     "It has shading, so it looks round.",
+     "มีการแรเงา จึงดูกลม"
+    ]
+   },
+   {
+    "page": 59,
+    "q": [
+     "Which choice describes a 3D drawing?",
+     "ข้อใดบอกลักษณะของภาพวาด 3 มิติ"
+    ],
+    "options": [
+     [
+      "A cave with depth",
+      "ถ้ำที่มีความลึก"
+     ],
+     [
+      "A 4×6\" photo",
+      "รูปถ่ายขนาด 4×6 นิ้ว"
+     ],
+     [
+      "A sheet of drawing paper",
+      "กระดาษวาดเขียนหนึ่งแผ่น"
+     ],
+     [
+      "A piece of locally woven cloth",
+      "ผ้าทอพื้นเมืองหนึ่งผืน"
+     ]
+    ],
+    "answer": 0,
+    "why": [
+     "3D shows depth. A cave is deep.",
+     "3 มิติแสดงความลึก ถ้ำมีความลึก"
+    ]
+   },
+   {
+    "page": 59,
+    "q": [
+     "Which choice shows a 3D picture with pencil shading?",
+     "ข้อใดเป็นภาพ 3 มิติที่แรเงาด้วยดินสอ"
+    ],
+    "options": [
+     "fig:t3a",
+     "fig:t3b",
+     "fig:t3c",
+     "fig:t3d"
+    ],
+    "answer": 2,
+    "why": [
+     "It is shaded with a grey pencil only.",
+     "แรเงาด้วยดินสอสีเทาอย่างเดียว"
+    ]
+   },
+   {
+    "page": 60,
+    "q": [
+     "Why do we use a cast shadow?",
+     "เราใช้เงาตกทอดเพื่ออะไร"
+    ],
+    "options": [
+     [
+      "To make the picture bigger",
+      "ทำให้ภาพใหญ่ขึ้น"
+     ],
+     [
+      "To make the picture brighter",
+      "ทำให้ภาพสว่างขึ้น"
+     ],
+     [
+      "To show the picture from one angle",
+      "ทำให้เห็นภาพจากมุมเดียว"
+     ],
+     [
+      "To make the picture more realistic",
+      "ทำให้ภาพดูเหมือนจริงมากขึ้น"
+     ]
+    ],
+    "answer": 3,
+    "why": [
+     "A cast shadow makes it look real.",
+     "เงาตกทอดทำให้ภาพดูเหมือนจริง"
+    ]
+   },
+   {
+    "page": 60,
+    "q": [
+     "Which is the best description of this picture?",
+     "ข้อใดอธิบายภาพนี้ได้ดีที่สุด"
+    ],
+    "fig": "t5",
+    "img": "img/unit3/beach.jpg",
+    "options": [
+     [
+      "It is a 2D line drawing.",
+      "เป็นภาพลายเส้น 2 มิติ"
+     ],
+     [
+      "It is a scenery picture with light and shadow.",
+      "เป็นภาพทิวทัศน์ที่มีแสงและเงา"
+     ],
+     [
+      "It uses form to show depth.",
+      "ใช้รูปทรงแสดงความลึก"
+     ],
+     [
+      "It is an example of cast shadows.",
+      "เป็นตัวอย่างการวาดเงาตกทอด"
+     ]
+    ],
+    "answer": 1,
+    "why": [
+     "It is a beach scenery with light and shadow.",
+     "เป็นภาพทิวทัศน์ชายหาดที่มีแสงและเงา"
+    ]
+   },
+   {
+    "page": 60,
+    "q": [
+     "Which side does the light shine from?",
+     "แสงส่องมาจากด้านไหน"
+    ],
+    "fig": "t6",
+    "options": [
+     [
+      "➡ (from the left)",
+      "➡ (มาจากทางซ้าย)"
+     ],
+     [
+      "⬅ (from the right)",
+      "⬅ (มาจากทางขวา)"
+     ],
+     [
+      "⬇ (from the top)",
+      "⬇ (มาจากด้านบน)"
+     ],
+     [
+      "⬆ (from below)",
+      "⬆ (มาจากด้านล่าง)"
+     ]
+    ],
+    "answer": 0,
+    "why": [
+     "The left side is bright. The shadow is on the right.",
+     "ด้านซ้ายสว่าง เงาอยู่ทางขวา"
+    ]
+   },
+   {
+    "page": 61,
+    "q": [
+     "You want one side in shadow. What do you do?",
+     "อยากให้ด้านหนึ่งอยู่ในเงา ควรทำอย่างไร"
+    ],
+    "options": [
+     [
+      "Paint with white colour.",
+      "ระบายด้วยสีขาว"
+     ],
+     [
+      "Paint with light colour.",
+      "ระบายด้วยสีอ่อน"
+     ],
+     [
+      "Paint with dark colour.",
+      "ระบายด้วยสีเข้ม"
+     ],
+     [
+      "Paint with many colours.",
+      "ระบายด้วยหลายสี"
+     ]
+    ],
+    "answer": 2,
+    "why": [
+     "Shadow sides are dark.",
+     "ด้านที่อยู่ในเงามืดกว่า"
+    ]
+   },
+   {
+    "page": 61,
+    "q": [
+     "Which is the best description of this picture?",
+     "ข้อใดอธิบายภาพนี้ได้ดีที่สุด"
+    ],
+    "fig": "t8",
+    "options": [
+     [
+      "Surreal, extraordinary light",
+      "แสงแปลกไม่ธรรมดาแบบเหนือจริง"
+     ],
+     [
+      "Different light and shadow",
+      "แสงและเงาที่ต่างกัน"
+     ],
+     [
+      "Form without light and shadow",
+      "รูปทรงที่ไม่มีแสงและเงา"
+     ],
+     [
+      "Cast shadow",
+      "เงาตกทอด"
+     ]
+    ],
+    "answer": 2,
+    "why": [
+     "Every side is the same colour. No light, no shadow.",
+     "ทุกด้านสีเดียวกัน ไม่มีแสง ไม่มีเงา"
+    ]
+   },
+   {
+    "page": 61,
+    "q": [
+     "Which picture is the most surreal?",
+     "ภาพใดเหนือจริงที่สุด"
+    ],
+    "options": [
+     "fig:t9a",
+     "fig:t9b",
+     "fig:t9c",
+     "fig:t9d"
+    ],
+    "answer": 3,
+    "why": [
+     "The light is like a dream.",
+     "แสงเหมือนความฝัน"
+    ]
+   },
+   {
+    "page": 61,
+    "q": [
+     "How can you get better at drawing 3D?",
+     "จะวาดภาพ 3 มิติให้เก่งขึ้นได้อย่างไร"
+    ],
+    "options": [
+     [
+      "Practise lines, then shading and shadows.",
+      "ฝึกวาดเส้น แล้วฝึกแรเงาและเงา"
+     ],
+     [
+      "Think about composition and balance on every side.",
+      "คิดเรื่องการจัดองค์ประกอบและความสมดุลทุกด้าน"
+     ],
+     [
+      "Only use a pencil until you are an expert.",
+      "ใช้ดินสออย่างเดียวจนกว่าจะเก่ง"
+     ],
+     [
+      "Practise using many colours.",
+      "ฝึกใช้หลายสี"
+     ]
+    ],
+    "answer": 0,
+    "why": [
+     "Lines first, then light and shadow.",
+     "วาดเส้นก่อน แล้วค่อยแรเงาแสงและเงา"
+    ]
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": [
+    "A 2D picture has width and...",
+    "ภาพ 2 มิติมีความกว้างและ..."
+   ],
+   "options": [
+    [
+     "length",
+     "ความยาว"
+    ],
+    [
+     "depth",
+     "ความลึก"
+    ],
+    [
+     "shadow",
+     "เงา"
+    ],
+    [
+     "thickness",
+     "ความหนา"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "A 3D picture also shows...",
+    "ภาพ 3 มิติแสดง...ด้วย"
+   ],
+   "options": [
+    [
+     "depth",
+     "ความลึก"
+    ],
+    [
+     "only lines",
+     "เส้นเท่านั้น"
+    ],
+    [
+     "no light",
+     "ไม่มีแสง"
+    ],
+    [
+     "one flat colour",
+     "สีเรียบสีเดียว"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "2D or 3D?",
+    "2 มิติ หรือ 3 มิติ"
+   ],
+   "fig": "sort2",
+   "options": [
+    [
+     "3D",
+     "3 มิติ"
+    ],
+    [
+     "2D",
+     "2 มิติ"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "2D or 3D?",
+    "2 มิติ หรือ 3 มิติ"
+   ],
+   "fig": "sort6",
+   "options": [
+    [
+     "2D",
+     "2 มิติ"
+    ],
+    [
+     "3D",
+     "3 มิติ"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "2D or 3D?",
+    "2 มิติ หรือ 3 มิติ"
+   ],
+   "fig": "sort7",
+   "options": [
+    [
+     "3D",
+     "3 มิติ"
+    ],
+    [
+     "2D",
+     "2 มิติ"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "What makes a line drawing 3D?",
+    "อะไรทำให้ภาพลายเส้นเป็น 3 มิติ"
+   ],
+   "options": [
+    [
+     "Shading",
+     "การแรเงา"
+    ],
+    [
+     "An eraser",
+     "ยางลบ"
+    ],
+    [
+     "A title",
+     "ชื่อภาพ"
+    ],
+    [
+     "A ruler",
+     "ไม้บรรทัด"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "The side facing the light is...",
+    "ด้านที่หันเข้าหาแสง..."
+   ],
+   "options": [
+    [
+     "bright",
+     "สว่าง"
+    ],
+    [
+     "dark",
+     "มืด"
+    ],
+    [
+     "black",
+     "สีดำ"
+    ],
+    [
+     "invisible",
+     "มองไม่เห็น"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "Where does the light come from?",
+    "แสงมาจากทางไหน"
+   ],
+   "fig": "t6",
+   "options": [
+    [
+     "The left",
+     "ทางซ้าย"
+    ],
+    [
+     "The right",
+     "ทางขวา"
+    ],
+    [
+     "Below",
+     "ด้านล่าง"
+    ],
+    [
+     "Behind",
+     "ด้านหลัง"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "Heavy shading: the lines are...",
+    "แรเงาเข้ม: เส้น..."
+   ],
+   "options": [
+    [
+     "close together",
+     "ชิดกัน"
+    ],
+    [
+     "far apart",
+     "ห่างกัน"
+    ],
+    [
+     "curly",
+     "หยิก"
+    ],
+    [
+     "red",
+     "สีแดง"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "A shadow on the ground is a...",
+    "เงาบนพื้นเรียกว่า..."
+   ],
+   "options": [
+    [
+     "cast shadow",
+     "เงาตกทอด"
+    ],
+    [
+     "highlight",
+     "จุดสว่าง"
+    ],
+    [
+     "outline",
+     "เส้นรอบนอก"
+    ],
+    [
+     "colour wheel",
+     "วงล้อสี"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "Light from the left. The shadow goes...",
+    "แสงมาจากซ้าย เงาไป..."
+   ],
+   "options": [
+    [
+     "to the right",
+     "ทางขวา"
+    ],
+    [
+     "to the left",
+     "ทางซ้าย"
+    ],
+    [
+     "up",
+     "ขึ้นบน"
+    ],
+    [
+     "nowhere",
+     "ไม่มีที่ไหน"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "Near things look...",
+    "ของที่อยู่ใกล้ดู..."
+   ],
+   "options": [
+    [
+     "big",
+     "ใหญ่"
+    ],
+    [
+     "small",
+     "เล็ก"
+    ],
+    [
+     "high",
+     "สูง"
+    ],
+    [
+     "pale",
+     "ซีด"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "In scenery, all shadows go...",
+    "ในภาพทิวทัศน์ เงาทุกอันไป..."
+   ],
+   "options": [
+    [
+     "the same way",
+     "ทางเดียวกัน"
+    ],
+    [
+     "different ways",
+     "คนละทาง"
+    ],
+    [
+     "up",
+     "ขึ้นบน"
+    ],
+    [
+     "in circles",
+     "เป็นวงกลม"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "A dream-like picture is...",
+    "ภาพที่เหมือนความฝัน..."
+   ],
+   "options": [
+    [
+     "surreal",
+     "เหนือจริง"
+    ],
+    [
+     "realistic",
+     "เหมือนจริง"
+    ],
+    [
+     "flat",
+     "แบน"
+    ],
+    [
+     "geometric",
+     "เรขาคณิต"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "Which form is round like a ball?",
+    "รูปทรงใดกลมเหมือนลูกบอล"
+   ],
+   "options": [
+    [
+     "Sphere",
+     "ทรงกลม"
+    ],
+    [
+     "Cube",
+     "ลูกบาศก์"
+    ],
+    [
+     "Cone",
+     "กรวย"
+    ],
+    [
+     "Pyramid",
+     "พีระมิด"
+    ]
+   ]
+  }
+ ],
+ "match": [
+  [
+   [
+    "2D",
+    "2 มิติ"
+   ],
+   [
+    "width and length",
+    "กว้างและยาว"
+   ]
+  ],
+  [
+   [
+    "3D",
+    "3 มิติ"
+   ],
+   [
+    "width, length, depth",
+    "กว้าง ยาว ลึก"
+   ]
+  ],
+  [
+   [
+    "Shading",
+    "การแรเงา"
+   ],
+   [
+    "light and dark",
+    "สว่างและมืด"
+   ]
+  ],
+  [
+   [
+    "Cast shadow",
+    "เงาตกทอด"
+   ],
+   [
+    "dark shape on the ground",
+    "รูปมืดบนพื้น"
+   ]
+  ],
+  [
+   [
+    "Surreal",
+    "เหนือจริง"
+   ],
+   [
+    "like a dream",
+    "เหมือนความฝัน"
+   ]
+  ],
+  [
+   [
+    "Scenery",
+    "ทิวทัศน์"
+   ],
+   [
+    "rice field, forest, sea",
+    "ทุ่งนา ป่า ทะเล"
+   ]
+  ],
+  [
+   [
+    "Heavy",
+    "เข้ม"
+   ],
+   [
+    "lines close together",
+    "เส้นชิดกัน"
+   ]
+  ],
+  [
+   [
+    "Light",
+    "อ่อน"
+   ],
+   [
+    "few lines far apart",
+    "เส้นน้อยห่างกัน"
+   ]
+  ],
+  [
+   [
+    "Sphere",
+    "ทรงกลม"
+   ],
+   [
+    "round like a ball",
+    "กลมเหมือนลูกบอล"
+   ]
+  ],
+  [
+   [
+    "Harmonious",
+    "กลมกลืน"
+   ],
+   [
+    "shadows go one way",
+    "เงาไปทางเดียว"
+   ]
+  ]
+ ]
+}

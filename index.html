@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>P.6 Arts with T. Roy</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+<link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html">🎨 P.6 Arts with T. Roy</a>
+</header>
+<main class="wrap">
+  <section class="hero">
+    <h1>Think Big Visual Arts 6<span class="th">ทัศนศิลป์ ป.6</span></h1>
+    <p>Pick a unit. · เลือกหน่วยการเรียนรู้</p>
+    <div class="paint-strip"></div>
+  </section>
+  <div class="unit-grid" id="units"></div>
+  <p class="footer">Made by T. Roy for classes 6/1, 6/2 and 6/3 · Book: Think Big Visual Arts Grade 6 (IAD)</p>
+</main>
+<script src="js/config.js?v=2"></script>
+<script>
+  const STATE = { done: "✅ Done in Semester 1 · เรียนแล้ว", ready: "▶ Open · เปิดเรียน", soon: "Coming soon · เร็ว ๆ นี้" };
+  document.getElementById("units").innerHTML = UNITS.map(u => `
+    <a class="unit-card ${u.state}" style="--c:${u.c}" href="unit.html?u=${u.id}">
+      <div class="icon">${u.icon}</div>
+      <div class="num">UNIT ${Number(u.id)}</div>
+      <h2>${u.title[0]}<span class="th">${u.title[1]}</span></h2>
+      <div class="pg">📖 ${u.pages}</div>
+      <span class="state">${STATE[u.state]}</span>
+    </a>`).join("");
+</script>
+</body>
+</html>

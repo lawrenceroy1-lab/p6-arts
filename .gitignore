@@ -1,0 +1,7 @@
+ARTS P6 TEXT BOOOK.pdf
+*.pdf
+CLAUDE.md
+Claude Code Prompt.txt
+.DS_Store
+tools/__pycache__/
+.claude/
