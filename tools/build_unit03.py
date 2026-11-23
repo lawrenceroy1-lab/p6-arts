@@ -99,10 +99,10 @@ def slide(page, routine, title, lines, pics=(), vote=None, tip=None, layout=None
 # Short and simple, following T. Roy's own Unit 3 slides. One idea and one big picture per slide.
 slide(44, "start", P("From 2D to 3D", "จาก 2 มิติ สู่ 3 มิติ"),
       [P("Light and shadow", "แสงและเงา"), P("Today we draw this beach! 🏖️", "วันนี้เราจะวาดชายหาดนี้")],
-      [pic("scenery", "beach.jpg")])
+      [pic("scenery", "slide-beach-girl.jpg")])
 slide(45, "look", P("Flat shape or solid form?", "รูปร่างแบน หรือรูปทรงสามมิติ"),
       [P("Circle → Sphere · Square → Cube", "วงกลม → ทรงกลม · สี่เหลี่ยมจัตุรัส → ลูกบาศก์")],
-      [pic("shapesForms")])
+      [pic("shapesForms", "slide-flat-solid.jpg")])
 slide(45, "look", P("What is depth?", "ความลึกคืออะไร"),
       [P("2D: width and length. 3D: also depth.", "2 มิติ: กว้างและยาว 3 มิติ: มีความลึกด้วย")],
       [pic("dims")])
@@ -110,59 +110,57 @@ slide(45, "book", P("Lines make it 3D", "เส้นทำให้เป็น
       [P("Flat → 3D", "แบน → 3 มิติ")],
       [pic("t1b", "banana.jpg"), pic("sort6", "mangosteen.jpg")])
 slide(46, "point", P("Four solid forms", "รูปทรงสามมิติสี่แบบ"),
-      [P("Sphere · Cube · Cylinder · Pyramid", "ทรงกลม · ลูกบาศก์ · ทรงกระบอก · พีระมิด")],
-      [pic("forms")])
+      [P("1 Sphere · 2 Cube · 3 Cylinder · 4 Pyramid", "1 ทรงกลม · 2 ลูกบาศก์ · 3 ทรงกระบอก · 4 พีระมิด")],
+      [pic("forms", "slide-four-forms.jpg")])
 slide(47, "look", P("Flat is light. Solid is heavy!", "ของแบนเบา ของตันหนัก"),
       [P("3D things have thickness.", "ของ 3 มิติมีความหนา")],
       [pic("shapesForms", "boy-2d-3d.jpg")])
 slide(48, "look", P("The side facing the light", "ด้านที่หันเข้าหาแสง"),
       [P("Near the light = bright. Far = dark.", "ใกล้แสง = สว่าง ไกลแสง = มืด")],
-      [pic("sphere:left", "oranges-candle.jpg")])
+      [pic("sphere:left", "slide-light-left.jpg"), pic("sphere:left", "oranges-candle.jpg")])
 slide(48, "vote", P("Light from the right. Bright side?", "แสงมาจากขวา ด้านไหนสว่าง"),
       [P("A = 1 finger · B = 2 fingers", "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว")],
       [pic("voteRightQ")],
-      vote={"options": [P("A. Left", "A. ซ้าย"), P("B. Right", "B. ขวา")], "answer": 1, "fig": "voteRightA",
+      vote={"options": [P("A. Left", "A. ซ้าย"), P("B. Right", "B. ขวา")], "answer": 1, "fig": "voteRightA", "img": "img/unit3/slide-light-right.jpg",
             "why": P("Point to the bright side.", "ชี้ด้านที่สว่าง")})
 slide(48, "point", P("Light can come from many sides", "แสงมาจากหลายทิศทาง"),
       [P("Point to the brightest spot.", "ชี้จุดที่สว่างที่สุด")],
-      [pic("sphere:top", cap=P("Top", "บน")), pic("sphere:left", cap=P("Left", "ซ้าย")), pic("sphere:right", cap=P("Right", "ขวา")),
-       pic("sphere:below", cap=P("Below", "ล่าง")), pic("sphere:front", cap=P("Front", "หน้า")), pic("sphere:behind", cap=P("Behind", "หลัง"))],
-      layout="grid6")
+      [pic("sphere:top", "slide-light-sides.jpg", P("Top · Left · Right · Below · Front · Behind", "บน · ซ้าย · ขวา · ล่าง · หน้า · หลัง"))])
 slide(49, "pencil", P("Three tones with lines", "น้ำหนักเส้นสามระดับ"),
       [P("Lines closer together look darker.", "เส้นยิ่งชิดกัน ยิ่งดูเข้ม")],
-      [pic("hatch3", cap=P("Light · Medium · Dark", "อ่อน · กลาง · เข้ม"))])
+      [pic("hatch3", "slide-three-tones.jpg", P("Light · Medium · Dark", "อ่อน · กลาง · เข้ม"))])
 slide(49, "colour", P("Colour on a round object", "การลงสีวัตถุทรงกลม"),
       [P("1. Sketch  2. Base colour  3. Blend  4. Shadow", "1. ร่างภาพ  2. ลงสีพื้น  3. ไล่สี  4. เพิ่มเงา")],
-      [pic("paintStages", "mango-stages.jpg")])
+      [pic("paintStages", "slide-round-steps.jpg"), pic("paintStages", "mango-stages.jpg")])
 slide(50, "colour", P("Three tones on a box", "กล่องกับสีสามระดับ"),
       [P("Light top. Medium front. Dark side.", "ด้านบนอ่อน ด้านหน้ากลาง ด้านข้างเข้ม")],
-      [pic("boxValues")])
+      [pic("boxValues", "slide-box-tones.jpg")])
 slide(51, "pencil", P("Shading with one pencil", "แรเงาด้วยดินสอแท่งเดียว"),
       [P("Press lightly first. Then build up the dark side.", "ลงเบา ๆ ก่อน แล้วค่อยเพิ่มน้ำหนักด้านมืด")],
-      [pic("sort4", "puppy-pencil.jpg")])
+      [pic("pencilScale", "slide-one-pencil.jpg"), pic("sort4", "puppy-pencil.jpg")])
 slide(52, "look", P("A shadow on the ground", "เงาที่ทอดลงบนพื้น"),
       [P("Light from the left. Shadow to the right.", "แสงมาจากซ้าย เงาทอดไปทางขวา")],
-      [pic("castShadow"), pic("veg", "veg-still-life.jpg")])
+      [pic("castShadow", "slide-ground-shadow.jpg"), pic("veg", "veg-still-life.jpg")])
 slide(52, "vote", P("Light from the left. Where is the shadow?", "แสงมาจากซ้าย เงาอยู่ตรงไหน"),
       [P("A = 1 finger · B = 2 fingers", "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว")],
       [pic("voteShadowQ")],
-      vote={"options": [P("A. Left", "A. ซ้าย"), P("B. Right", "B. ขวา")], "answer": 1, "fig": "voteShadowA",
+      vote={"options": [P("A. Left", "A. ซ้าย"), P("B. Right", "B. ขวา")], "answer": 1, "fig": "voteShadowA", "img": "img/unit3/slide-ground-shadow.jpg",
             "why": P("The shadow goes away from the light.", "เงาไปทางตรงข้ามกับแสง")})
 slide(53, "detective", P("The beach in the book", "ชายหาดในหนังสือ"),
       [P("What is near? What is far?", "อะไรอยู่ใกล้ อะไรอยู่ไกล")],
-      [pic("scenery", "beach.jpg")])
+      [pic("scenery", "slide-beach-girl.jpg")])
 slide(53, "detective", P("One light direction", "แสงมาจากทิศเดียวกัน"),
       [P("Light from upper left. Shadows go lower right.", "แสงมาจากซ้ายบน เงาทอดไปทางขวาล่าง")],
-      [pic("scenery", cap=P("✅ All shadows one way", "✅ เงาไปทางเดียวกัน")), pic("sceneryWrong", cap=P("❌ Shadows go different ways", "❌ เงาไปคนละทาง"))])
+      [pic("scenery", "slide-beach-girl.jpg")])
 slide(53, "draw", P("Drawing time!", "ถึงเวลาวาดภาพ"),
       [P("The girl and the coconut tree", "เด็กผู้หญิงกับต้นมะพร้าว"), P("Open ✏️ Draw: The beach", "เปิด ✏️ วาดภาพ: ชายหาด")],
-      [pic("scenery", "beach.jpg")])
+      [pic("scenery", "slide-beach-girl.jpg")])
 slide(54, "extension", P("Real light or imaginary light?", "แสงแบบจริง หรือแสงจากจินตนาการ"),
       [P("What if the light were green?", "ถ้าแสงเป็นสีเขียวล่ะ")],
-      [pic("veg", "veg-still-life.jpg", P("Real light", "แสงแบบจริง")), pic("surreal", "surreal-fruit.jpg", P("Imaginary light", "แสงจากจินตนาการ"))])
+      [pic("surreal", "slide-real-imaginary.jpg", P("Real light · Imaginary light", "แสงแบบจริง · แสงจากจินตนาการ")), pic("surreal", "surreal-fruit.jpg")])
 slide(59, "review", P("What helps a picture look real?", "อะไรช่วยให้ภาพดูสมจริง"),
       [P("A = 1 finger · B = 2 fingers", "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว")],
-      [pic("castShadow")],
+      [pic("castShadow", "slide-real-review.jpg")],
       vote={"options": [P("A. Light and shadow", "A. แสงและเงา"), P("B. Draw it bigger", "B. วาดให้ใหญ่ขึ้น")], "answer": 0,
             "why": P("A shadow helps the object look grounded.", "เงาช่วยให้วัตถุดูเหมือนวางอยู่บนพื้น")})
 
@@ -170,16 +168,19 @@ slide(59, "review", P("What helps a picture look real?", "อะไรช่ว�
 PROJECT = {
     "title": P("Today's drawing: The beach", "ภาพที่เราจะวาดวันนี้: ชายหาด"),
     "page": 53,
-    "goal": pic("scenery", "beach.jpg", P("We draw this!", "เราจะวาดภาพนี้")),
+    "goal": pic("scenery", "slide-beach-girl.jpg", P("We draw this!", "เราจะวาดภาพนี้")),
     "check": [P("Light on the left", "ซ้ายสว่าง"), P("Dark on the right", "ขวามืด"), P("Cast shadows on the sand", "เงาทอดบนทราย")],
 }
 GUIDES = [
-    {"id": "beach", "page": 53, "title": P("The beach", "ชายหาด"), "steps": [
-        P("Sea and shore: draw the horizon and a curved shore.", "ทะเลและชายฝั่ง: วาดเส้นขอบฟ้าและชายฝั่งโค้ง"),
-        P("Big shapes first: big palm, girl, small palms far away.", "วาดรูปใหญ่ก่อน: ต้นมะพร้าวใหญ่ เด็กผู้หญิง ต้นเล็กอยู่ไกล"),
-        P("Add coconuts, a face and a little crab.", "เติมมะพร้าว ใบหน้า และปูตัวเล็ก"),
-        P("Base colours: sea, sand, tree and girl.", "ลงสีพื้น: ทะเล ทราย ต้นไม้ และเด็กผู้หญิง"),
-        P("Light left. Dark right. Shadows on the sand.", "ซ้ายสว่าง ขวามืด เงาทอดบนทราย")]},
+    {"id": "beach", "page": 53, "title": P("The beach", "ชายหาด"),
+     "imgs": ["img/unit3/slide-beach-step1.jpg", "img/unit3/slide-beach-step2.jpg", "img/unit3/slide-beach-step3.jpg", "img/unit3/slide-beach-step4.jpg", "img/unit3/slide-beach-step5.jpg"],
+     "names": [P("Sea and shore", "ทะเลและชายฝั่ง"), P("Big shapes first", "วาดรูปใหญ่ก่อน"), P("Coconuts and details", "มะพร้าวและรายละเอียด"), P("Base colours", "ลงสีพื้น"), P("Light and shadow", "แสงและเงา")],
+     "steps": [
+        P("Draw the horizon and a curved shore.", "วาดเส้นขอบฟ้าและชายฝั่งโค้ง"),
+        P("Big palm. Girl. Small palms far away.", "ต้นมะพร้าวใหญ่ เด็กผู้หญิง ต้นเล็กอยู่ไกล"),
+        P("Add coconuts, a face, and a little crab.", "เติมมะพร้าว ใบหน้า และปูตัวเล็ก"),
+        P("Colour the sea, sand, tree, and girl.", "ลงสีทะเล ทราย ต้นไม้ และเด็กผู้หญิง"),
+        P("Light left. Dark right. Shadows on sand.", "ซ้ายสว่าง ขวามืด เงาทอดบนทราย")]},
     {"id": "ball", "page": 56, "title": P("Help: a shaded ball (Activity 3)", "ช่วยวาด: ลูกบอลแรเงา (กิจกรรมที่ 3)"), "steps": [
         P("Draw a circle.", "วาดวงกลม"),
         P("Draw a small sun. Mark the bright spot.", "วาดดวงอาทิตย์เล็ก ๆ ทำเครื่องหมายจุดสว่าง"),
@@ -319,7 +320,7 @@ unit = {
     "slides": SLIDES,
     "project": PROJECT,
     "guides": GUIDES,
-    "build": 4,
+    "build": 6,
     "activities": ACTIVITIES,
     "rubric": RUBRIC,
     "test": {"pages": "p.59 to 61", "questions": TEST},

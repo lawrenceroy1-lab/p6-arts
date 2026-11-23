@@ -312,7 +312,8 @@ const Art = (() => {
       ${cube(190, 70, 95, "#fff", { shade: false })}${cube(355, 70, 95, "#fff", { shade: false, hidden: true })}`),
     shade3d: () => svg(460, 300, `<circle cx="95" cy="80" r="55" fill="#fff" stroke="${INK}" stroke-width="2.5"/>${arrow(170, 80, 220, 80, "#EC407A")}${hatchBall(320, 80, 55)}
       ${cube(40, 190, 85, "#fff", { shade: false })}${arrow(170, 230, 220, 230, "#EC407A")}${cube(250, 190, 85, "#BDBDBD", { hatch: true, shadow: true })}`),
-    forms: () => svg(560, 220, `${ball(70, 120, 50, "#EF5350")}${cube(140, 100, 70, "#42A5F5", {})}${cylinder(300, 80, 42, 90, "#66BB6A", {})}${pyramid(410, 165, 100, 120, "#FFB300", {})}${cone(510, 170, 42, 120, "#AB47BC", {})}`),
+    forms: () => svg(500, 250, `${ball(75, 130, 52, "#EF5350")}${cube(150, 110, 72, "#42A5F5", {})}${cylinder(315, 90, 44, 92, "#66BB6A", {})}${pyramid(430, 178, 100, 125, "#FFB300", {})}
+      ${label(75, 240, "1")}${label(190, 240, "2")}${label(315, 240, "3")}${label(430, 240, "4")}`),
     nearFar: () => svg(460, 260, `<rect width="460" height="260" fill="#E3F2FD"/><path d="M0,120 L460,120 L460,260 L0,260Z" fill="#AED581"/>
       <path d="M200,120 L260,120 L380,260 L80,260Z" fill="#BCAAA4"/>
       ${tree(60, 250, 90, { shadow: true })}${tree(150, 175, 50, {})}${tree(195, 140, 26, {})}

@@ -197,7 +197,7 @@
    "pics": [
     {
      "fig": "scenery",
-     "img": "img/unit3/beach.jpg"
+     "img": "img/unit3/slide-beach-girl.jpg"
     }
    ]
   },
@@ -219,7 +219,8 @@
    ],
    "pics": [
     {
-     "fig": "shapesForms"
+     "fig": "shapesForms",
+     "img": "img/unit3/slide-flat-solid.jpg"
     }
    ]
   },
@@ -284,13 +285,14 @@
    ],
    "lines": [
     [
-     "Sphere · Cube · Cylinder · Pyramid",
-     "ทรงกลม · ลูกบาศก์ · ทรงกระบอก · พีระมิด"
+     "1 Sphere · 2 Cube · 3 Cylinder · 4 Pyramid",
+     "1 ทรงกลม · 2 ลูกบาศก์ · 3 ทรงกระบอก · 4 พีระมิด"
     ]
    ],
    "pics": [
     {
-     "fig": "forms"
+     "fig": "forms",
+     "img": "img/unit3/slide-four-forms.jpg"
     }
    ]
   },
@@ -336,6 +338,10 @@
    "pics": [
     {
      "fig": "sphere:left",
+     "img": "img/unit3/slide-light-left.jpg"
+    },
+    {
+     "fig": "sphere:left",
      "img": "img/unit3/oranges-candle.jpg"
     }
    ]
@@ -374,6 +380,7 @@
     ],
     "answer": 1,
     "fig": "voteRightA",
+    "img": "img/unit3/slide-light-right.jpg",
     "why": [
      "Point to the bright side.",
      "ชี้ด้านที่สว่าง"
@@ -399,48 +406,13 @@
    "pics": [
     {
      "fig": "sphere:top",
+     "img": "img/unit3/slide-light-sides.jpg",
      "cap": [
-      "Top",
-      "บน"
-     ]
-    },
-    {
-     "fig": "sphere:left",
-     "cap": [
-      "Left",
-      "ซ้าย"
-     ]
-    },
-    {
-     "fig": "sphere:right",
-     "cap": [
-      "Right",
-      "ขวา"
-     ]
-    },
-    {
-     "fig": "sphere:below",
-     "cap": [
-      "Below",
-      "ล่าง"
-     ]
-    },
-    {
-     "fig": "sphere:front",
-     "cap": [
-      "Front",
-      "หน้า"
-     ]
-    },
-    {
-     "fig": "sphere:behind",
-     "cap": [
-      "Behind",
-      "หลัง"
+      "Top · Left · Right · Below · Front · Behind",
+      "บน · ซ้าย · ขวา · ล่าง · หน้า · หลัง"
      ]
     }
-   ],
-   "layout": "grid6"
+   ]
   },
   {
    "page": 49,
@@ -461,6 +433,7 @@
    "pics": [
     {
      "fig": "hatch3",
+     "img": "img/unit3/slide-three-tones.jpg",
      "cap": [
       "Light · Medium · Dark",
       "อ่อน · กลาง · เข้ม"
@@ -487,6 +460,10 @@
    "pics": [
     {
      "fig": "paintStages",
+     "img": "img/unit3/slide-round-steps.jpg"
+    },
+    {
+     "fig": "paintStages",
      "img": "img/unit3/mango-stages.jpg"
     }
    ]
@@ -509,7 +486,8 @@
    ],
    "pics": [
     {
-     "fig": "boxValues"
+     "fig": "boxValues",
+     "img": "img/unit3/slide-box-tones.jpg"
     }
    ]
   },
@@ -530,6 +508,10 @@
     ]
    ],
    "pics": [
+    {
+     "fig": "pencilScale",
+     "img": "img/unit3/slide-one-pencil.jpg"
+    },
     {
      "fig": "sort4",
      "img": "img/unit3/puppy-pencil.jpg"
@@ -554,7 +536,8 @@
    ],
    "pics": [
     {
-     "fig": "castShadow"
+     "fig": "castShadow",
+     "img": "img/unit3/slide-ground-shadow.jpg"
     },
     {
      "fig": "veg",
@@ -596,6 +579,7 @@
     ],
     "answer": 1,
     "fig": "voteShadowA",
+    "img": "img/unit3/slide-ground-shadow.jpg",
     "why": [
      "The shadow goes away from the light.",
      "เงาไปทางตรงข้ามกับแสง"
@@ -621,7 +605,7 @@
    "pics": [
     {
      "fig": "scenery",
-     "img": "img/unit3/beach.jpg"
+     "img": "img/unit3/slide-beach-girl.jpg"
     }
    ]
   },
@@ -644,17 +628,7 @@
    "pics": [
     {
      "fig": "scenery",
-     "cap": [
-      "✅ All shadows one way",
-      "✅ เงาไปทางเดียวกัน"
-     ]
-    },
-    {
-     "fig": "sceneryWrong",
-     "cap": [
-      "❌ Shadows go different ways",
-      "❌ เงาไปคนละทาง"
-     ]
+     "img": "img/unit3/slide-beach-girl.jpg"
     }
    ]
   },
@@ -681,7 +655,7 @@
    "pics": [
     {
      "fig": "scenery",
-     "img": "img/unit3/beach.jpg"
+     "img": "img/unit3/slide-beach-girl.jpg"
     }
    ]
   },
@@ -703,20 +677,16 @@
    ],
    "pics": [
     {
-     "fig": "veg",
-     "img": "img/unit3/veg-still-life.jpg",
+     "fig": "surreal",
+     "img": "img/unit3/slide-real-imaginary.jpg",
      "cap": [
-      "Real light",
-      "แสงแบบจริง"
+      "Real light · Imaginary light",
+      "แสงแบบจริง · แสงจากจินตนาการ"
      ]
     },
     {
      "fig": "surreal",
-     "img": "img/unit3/surreal-fruit.jpg",
-     "cap": [
-      "Imaginary light",
-      "แสงจากจินตนาการ"
-     ]
+     "img": "img/unit3/surreal-fruit.jpg"
     }
    ]
   },
@@ -738,7 +708,8 @@
    ],
    "pics": [
     {
-     "fig": "castShadow"
+     "fig": "castShadow",
+     "img": "img/unit3/slide-real-review.jpg"
     }
    ],
    "vote": {
@@ -768,7 +739,7 @@
   "page": 53,
   "goal": {
    "fig": "scenery",
-   "img": "img/unit3/beach.jpg",
+   "img": "img/unit3/slide-beach-girl.jpg",
    "cap": [
     "We draw this!",
     "เราจะวาดภาพนี้"
@@ -797,25 +768,54 @@
     "The beach",
     "ชายหาด"
    ],
+   "imgs": [
+    "img/unit3/slide-beach-step1.jpg",
+    "img/unit3/slide-beach-step2.jpg",
+    "img/unit3/slide-beach-step3.jpg",
+    "img/unit3/slide-beach-step4.jpg",
+    "img/unit3/slide-beach-step5.jpg"
+   ],
+   "names": [
+    [
+     "Sea and shore",
+     "ทะเลและชายฝั่ง"
+    ],
+    [
+     "Big shapes first",
+     "วาดรูปใหญ่ก่อน"
+    ],
+    [
+     "Coconuts and details",
+     "มะพร้าวและรายละเอียด"
+    ],
+    [
+     "Base colours",
+     "ลงสีพื้น"
+    ],
+    [
+     "Light and shadow",
+     "แสงและเงา"
+    ]
+   ],
    "steps": [
     [
-     "Sea and shore: draw the horizon and a curved shore.",
-     "ทะเลและชายฝั่ง: วาดเส้นขอบฟ้าและชายฝั่งโค้ง"
+     "Draw the horizon and a curved shore.",
+     "วาดเส้นขอบฟ้าและชายฝั่งโค้ง"
     ],
     [
-     "Big shapes first: big palm, girl, small palms far away.",
-     "วาดรูปใหญ่ก่อน: ต้นมะพร้าวใหญ่ เด็กผู้หญิง ต้นเล็กอยู่ไกล"
+     "Big palm. Girl. Small palms far away.",
+     "ต้นมะพร้าวใหญ่ เด็กผู้หญิง ต้นเล็กอยู่ไกล"
     ],
     [
-     "Add coconuts, a face and a little crab.",
+     "Add coconuts, a face, and a little crab.",
      "เติมมะพร้าว ใบหน้า และปูตัวเล็ก"
     ],
     [
-     "Base colours: sea, sand, tree and girl.",
-     "ลงสีพื้น: ทะเล ทราย ต้นไม้ และเด็กผู้หญิง"
+     "Colour the sea, sand, tree, and girl.",
+     "ลงสีทะเล ทราย ต้นไม้ และเด็กผู้หญิง"
     ],
     [
-     "Light left. Dark right. Shadows on the sand.",
+     "Light left. Dark right. Shadows on sand.",
      "ซ้ายสว่าง ขวามืด เงาทอดบนทราย"
     ]
    ]
@@ -881,7 +881,7 @@
    ]
   }
  ],
- "build": 4,
+ "build": 6,
  "activities": [
   {
    "num": 1,

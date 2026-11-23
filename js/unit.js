@@ -2,7 +2,7 @@
 // No logins and no scores: T. Roy teaches, students work on paper.
 
 const UNIT_ID = new URLSearchParams(location.search).get("u") || "03";
-const BUILD = 4;               // must match "build" in content/unitXX.json (made by tools/build_unitXX.py)
+const BUILD = 6;               // must match "build" in content/unitXX.json (made by tools/build_unitXX.py)
 let D = null;
 let tab = "need";
 let cleanup = null;
@@ -146,7 +146,7 @@ function Lessons(start) {
   function draw() {
     setHash(i);
     const s = S[i], v = s.vote;
-    const pics = v && shown && v.fig ? [{ fig: v.fig }] : s.pics;
+    const pics = v && shown && (v.img || v.fig) ? [{ img: v.img, fig: v.fig }] : s.pics;
     const pcls = s.layout === "grid6" ? "grid6" : `n${Math.min(pics.length, 3)}`;
     view().innerHTML = withSide(`<div class="slide ${cls(s)}">
       <div class="slide-top"><span class="routine">${B(s.routine)}</span><span class="badge">📖 p.${s.page}</span></div>
@@ -172,6 +172,7 @@ function Lessons(start) {
 }
 
 // =============== ✏️ TODAY'S DRAWING (the beach) + help for book activities ===============
+const stepPic = (guide, k) => guide.imgs ? `<img class="step-img" src="${guide.imgs[k - 1]}" alt="Step ${k}" loading="lazy">` : Steps.draw(guide.id, k);
 function DrawAlong(start) {
   const G = D.guides, P = D.project;
   let g = Math.min(start, G.length - 1), k = 1;
@@ -181,11 +182,12 @@ function DrawAlong(start) {
     view().innerHTML = `<div class="panel">${header(g === 0 ? `✏️ ${B(P.title)}` : `✏️ ${B(guide.title)}`, `<span class="badge">📖 p.${guide.page}</span>`)}
       ${g === 0 && k === 1 ? `<div class="goal">${pic(P.goal)}</div>` : ""}
       <div class="step-card">
-        <span class="stepno">Step ${k} of ${n} · ขั้นที่ ${k}</span>
+        <span class="stepno">Step ${k} of ${n} · ขั้นที่ ${k}${guide.names ? ` · ${esc(guide.names[k - 1][0])}` : ""}</span>
+        ${guide.names ? `<div class="small" style="font-weight:800;color:var(--th)">${esc(guide.names[k - 1][1])}</div>` : ""}
         <div class="steptext">${B(guide.steps[k - 1])}</div>
-        ${Steps.draw(guide.id, k)}
+        ${stepPic(guide, k)}
       </div>
-      <div class="step-strip">${guide.steps.map((_, j) => `<button class="${j + 1 === k ? "on" : ""}" data-k="${j + 1}">${Steps.draw(guide.id, j + 1)}<div class="sn">${j + 1}</div></button>`).join("")}</div>
+      <div class="step-strip">${guide.steps.map((_, j) => `<button class="${j + 1 === k ? "on" : ""}" data-k="${j + 1}">${stepPic(guide, j + 1)}<div class="sn">${j + 1}</div></button>`).join("")}</div>
       ${g === 0 && last ? `<div class="check"><h3>👫 Partner check<span class="th">ให้เพื่อนตรวจ</span></h3><ol>${P.check.map(c => `<li>☐ ${B(c)}</li>`).join("")}</ol></div>` : ""}
       ${navBtns(k - 1, n, "dp", "dn")}
       <div class="guide-pick small-pick">${G.map((x, j) => `<button class="chip ${j === g ? "on" : ""}" data-g="${j}">${B(x.title)}</button>`).join("")}</div></div>`;
