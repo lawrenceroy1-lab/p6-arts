@@ -103,18 +103,18 @@ const header = (t, extra) => `<div class="panel-title"><h2>${t}</h2>${extra || "
 // =============== 🎒 WHAT YOU NEED ===============
 function Need() {
   setHash(0);
-  const m = D.materials;
-  const card = (x, best) => `<div class="mat ${best ? "best" : ""}">${best ? `<span class="star">⭐ Recommended · แนะนำ</span>` : ""}${Art.fig(x.fig)}<h3>${B(x.name)}</h3>
-    ${x.note ? `<p>${B(x.note)}</p>` : ""}${x.good ? `<p class="good">👍 ${B(x.good)}</p>` : ""}${x.bad ? `<p class="bad">👎 ${B(x.bad)}</p>` : ""}</div>`;
+  const m = D.materials, r = m.recommend;
+  const card = x => `<div class="mat">${Art.fig(x.fig)}<h3>${B(x.name)}</h3>${x.note ? `<p>${B(x.note)}</p>` : ""}</div>`;
   view().innerHTML = `<div class="panel">${header(`🎒 What you need<span class="th">สิ่งที่ต้องใช้</span>`)}
     <p style="font-weight:800">${B(m.intro)}</p>
     <h3 class="section-h">✅ Everyone needs<span class="th">ทุกคนต้องมี</span></h3>
-    <div class="mat-grid">${m.must.map(x => card(x)).join("")}</div>
-    <h3 class="section-h">🎨 ${B(m.choose)}</h3>
-    <div class="mat-grid" style="margin-top:22px">${m.options.map(x => card(x, x.best)).join("")}</div>
-    <div class="why-box">${B(m.why)}</div>
-    <h3 class="section-h">👩‍🏫 For the teacher<span class="th">สำหรับครู</span></h3>
-    <div class="mat-grid">${m.teacher.map(x => card(x)).join("")}</div>
+    <div class="mat-grid">${m.must.map(card).join("")}</div>
+    <h3 class="section-h">🎨 Colours: we use<span class="th">สีที่เราใช้</span></h3>
+    <div class="rec">
+      <div class="mat best"><span class="star">⭐ Recommended · แนะนำ</span>${Art.fig(r.fig)}<h3>${B(r.name)}</h3></div>
+      <div class="rec-why"><h3>Why?<span class="th">ทำไม</span></h3><ul>${r.why.map(w => `<li>${B(w)}</li>`).join("")}</ul></div>
+    </div>
+    ${pic(r.example)}
     <div class="btnrow"><button class="bigbtn green" id="toWords">Start: Words ➡<span class="th">เริ่ม: คำศัพท์</span></button></div></div>`;
   on("toWords", () => { tab = "words"; renderTabs(); go(0); });
 }
@@ -136,7 +136,7 @@ function Words() {
 function Lessons(start) {
   const S = D.slides;
   let i = Math.min(start, S.length - 1), shown = false;
-  const cls = s => ({ "FINGER VOTE": "r-vote", "UNIT REVIEW": "r-vote", "TORCH DEMO": "r-torch", "PENCIL PRACTICE": "r-pencil", "COLOUR SHADING": "r-colour", "PICTURE DETECTIVES": "r-detective", "EXTENSION": "r-extension", "UNIT 3": "r-start" })[s.routine[0]] || "";
+  const cls = s => ({ "FINGER VOTE": "r-vote", "UNIT REVIEW": "r-vote", "PENCIL PRACTICE": "r-pencil", "COLOUR SHADING": "r-colour", "PICTURE DETECTIVES": "r-detective", "EXTENSION": "r-extension", "UNIT 3": "r-start" })[s.routine[0]] || "";
   function draw() {
     setHash(i);
     const s = S[i], v = s.vote;

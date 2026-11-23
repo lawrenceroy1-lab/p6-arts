@@ -32,7 +32,6 @@ ROUTINES = {
     "look": P("LOOK AND COMPARE", "ดูและเปรียบเทียบ"),
     "point": P("POINT AND NAME", "ชี้และบอกชื่อ"),
     "book": P("BOOK PICTURE", "ภาพในหนังสือ"),
-    "torch": P("TORCH DEMO", "สาธิตด้วยไฟฉาย"),
     "vote": P("FINGER VOTE", "ชูนิ้วเลือกคำตอบ"),
     "pencil": P("PENCIL PRACTICE", "ฝึกใช้ดินสอ"),
     "colour": P("COLOUR SHADING", "การลงสีแสงเงา"),
@@ -51,23 +50,11 @@ MATERIALS = {
         {"fig": "matEraser", "name": P("Eraser", "ยางลบ"), "note": P("Rub out lines you do not need.", "ลบเส้นที่ไม่ต้องการ")},
         {"fig": "matSharpener", "name": P("Sharpener", "กบเหลาดินสอ"), "note": P("A sharp pencil makes thin lines.", "ดินสอแหลมทำให้ได้เส้นบาง")},
     ],
-    "choose": P("Colours: choose ONE. You do not need all three.", "สี: เลือกแค่ 1 อย่าง ไม่ต้องมีครบทั้ง 3 อย่าง"),
-    "options": [
-        {"fig": "matColourPencils", "name": P("Colour pencils", "สีไม้"), "best": True,
-         "good": P("Cheap. Clean. Easy to make light, medium and dark.", "ราคาถูก ไม่เลอะ ทำสีอ่อน กลาง เข้มได้ง่าย"),
-         "bad": P("Colours are not very bright.", "สีไม่สดมาก")},
-        {"fig": "matCrayons", "name": P("Crayons", "สีเทียน"), "best": False,
-         "good": P("Cheap. Bright colours.", "ราคาถูก สีสด"),
-         "bad": P("Hard to make soft shading.", "แรเงาให้นุ่มนวลได้ยาก")},
-        {"fig": "matWatercolours", "name": P("Watercolours", "สีน้ำ"), "best": False,
-         "good": P("Beautiful soft colours. Good for painting light and shadow.", "สีสวยนุ่มนวล เหมาะกับการระบายแสงและเงา"),
-         "bad": P("You need a brush, water and a cloth. Thin paper can get wet and wrinkly.", "ต้องมีพู่กัน น้ำ และผ้า กระดาษบางอาจเปียกและย่น")},
-    ],
-    "why": P("⭐ Recommended for Unit 3: colour pencils. They are the cheapest and the easiest way to shade light, medium and dark.",
-             "⭐ แนะนำสำหรับหน่วยที่ 3: สีไม้ เพราะราคาถูกที่สุด และแรเงาอ่อน กลาง เข้ม ได้ง่ายที่สุด"),
-    "teacher": [
-        {"fig": "matTorch", "name": P("Teacher: a torch (phone light)", "ครู: ไฟฉาย (ไฟจากโทรศัพท์)"), "note": P("For the Torch demo with a ball and a box.", "ใช้สาธิตกับลูกบอลและกล่อง")},
-    ],
+    "recommend": {"fig": "matColourPencils", "name": P("Colour pencils", "สีไม้"),
+                  "why": [P("In this unit we shade light, medium and dark, like the mango below.", "หน่วยนี้เราแรเงาอ่อน กลาง และเข้ม เหมือนมะม่วงในภาพ"),
+                          P("Colour pencils make this easy: press softly for light, press harder for dark.", "สีไม้ทำได้ง่าย: กดเบาได้สีอ่อน กดแรงได้สีเข้ม"),
+                          P("They work well on the paper in our book.", "ใช้กับกระดาษในหนังสือของเราได้ดี")],
+                  "example": pic("paintStages", "mango-stages.jpg", P("Light, medium and dark with colour pencils", "อ่อน กลาง และเข้ม ด้วยสีไม้"))},
 }
 
 # ---------------------------------------------------------------- WORDS (book p.43)
@@ -148,11 +135,11 @@ slide(47, "look", P("Near and far", "ใกล้และไกล"),
        P("Far things look small.", "ของที่อยู่ไกลดูเล็ก"),
        P("This shows depth.", "นี่คือการแสดงความลึก")],
       [pic("nearFar")])
-slide(48, "torch", P("The side facing the light", "ด้านที่หันเข้าหาแสง"),
+slide(48, "look", P("The side facing the light", "ด้านที่หันเข้าหาแสง"),
       [P("The side facing the light is bright.", "ด้านที่หันเข้าหาแสงสว่าง"),
        P("Sides with little light are dark.", "ด้านที่ได้แสงน้อยมืด")],
       [pic("lightSides"), pic("sphere:left", "oranges-candle.jpg", P("Far from the light = darker", "ไกลแสง = มืดกว่า"))],
-      tip=P("Teacher: shine a phone torch on a ball. Move it around.", "ครู: ส่องไฟฉายโทรศัพท์ไปที่ลูกบอล แล้วเลื่อนไปรอบ ๆ"))
+      tip=P("Look at the oranges. Which one is near the candle? It is the brightest.", "ดูส้ม ลูกไหนอยู่ใกล้เทียน ลูกนั้นสว่างที่สุด"))
 slide(48, "vote", P("Light from the right. Which side is bright?", "แสงมาจากทางขวา ด้านไหนสว่าง"),
       [P("A = 1 finger · B = 2 fingers", "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว")],
       [pic("voteRightQ")],

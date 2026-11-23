@@ -93,7 +93,7 @@ button .th, .tab .th { color: inherit; opacity: .92; font-size: .78em; }
 .slide .lines li { font-weight: 800; font-size: 1.05em; margin: 8px 0; padding-left: 30px; position: relative; }
 .slide .lines li::before { content: "●"; position: absolute; left: 4px; top: 0; color: var(--art1); }
 .slide.r-vote { border-color: var(--question); } .slide.r-vote .slide-top { background: var(--question-bg); } .slide.r-vote .routine { background: var(--question); }
-.slide.r-torch, .slide.r-pencil, .slide.r-colour { border-color: var(--art2); } .slide.r-torch .slide-top, .slide.r-pencil .slide-top, .slide.r-colour .slide-top { background: #EDE7F6; } .slide.r-torch .routine, .slide.r-pencil .routine, .slide.r-colour .routine { background: var(--art2); }
+.slide.r-pencil, .slide.r-colour { border-color: var(--art2); } .slide.r-pencil .slide-top, .slide.r-colour .slide-top { background: #EDE7F6; } .slide.r-pencil .routine, .slide.r-colour .routine { background: var(--art2); }
 .slide.r-detective, .slide.r-extension { border-color: var(--art3); } .slide.r-detective .slide-top, .slide.r-extension .slide-top { background: #E0F2F1; } .slide.r-detective .routine, .slide.r-extension .routine { background: var(--art3); }
 .slide.r-start { border-color: var(--art1); } .slide.r-start .slide-top { background: #FCE4EC; } .slide.r-start .routine { background: var(--art1); }
 .slide.r-start h2 { font-size: 2em; text-align: center; } .slide.r-start .lines li { text-align: center; padding: 0; } .slide.r-start .lines li::before { content: none; }
@@ -144,6 +144,10 @@ figure.pic figcaption { font-weight: 900; color: var(--title); font-size: .85em;
 .mat .star { position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: var(--answer); color: #fff; border-radius: 999px; padding: 2px 14px; font-weight: 900; font-size: .7em; white-space: nowrap; }
 .mat .good { color: var(--answer); } .mat .bad { color: #b23c17; }
 .section-h { font-size: 1.05em; margin: 16px 0 4px; }
+.rec { display: grid; gap: 14px; grid-template-columns: minmax(0, 260px) 1fr; align-items: center; margin: 18px 0 10px; }
+@media (max-width: 640px) { .rec { grid-template-columns: 1fr; } }
+.rec-why { background: var(--answer-bg); border: 3px solid var(--answer); border-radius: 16px; padding: 10px 16px; }
+.rec-why ul { margin: 0; padding-left: 22px; } .rec-why li { margin: 8px 0; font-weight: 800; }
 .why-box { background: var(--answer-bg); border: 3px solid var(--answer); border-radius: 14px; padding: 10px 14px; font-weight: 800; }
 
 /* ===== Words ===== */

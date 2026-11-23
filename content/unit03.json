@@ -60,77 +60,35 @@
     ]
    }
   ],
-  "choose": [
-   "Colours: choose ONE. You do not need all three.",
-   "สี: เลือกแค่ 1 อย่าง ไม่ต้องมีครบทั้ง 3 อย่าง"
-  ],
-  "options": [
-   {
-    "fig": "matColourPencils",
-    "name": [
-     "Colour pencils",
-     "สีไม้"
+  "recommend": {
+   "fig": "matColourPencils",
+   "name": [
+    "Colour pencils",
+    "สีไม้"
+   ],
+   "why": [
+    [
+     "In this unit we shade light, medium and dark, like the mango below.",
+     "หน่วยนี้เราแรเงาอ่อน กลาง และเข้ม เหมือนมะม่วงในภาพ"
     ],
-    "best": true,
-    "good": [
-     "Cheap. Clean. Easy to make light, medium and dark.",
-     "ราคาถูก ไม่เลอะ ทำสีอ่อน กลาง เข้มได้ง่าย"
+    [
+     "Colour pencils make this easy: press softly for light, press harder for dark.",
+     "สีไม้ทำได้ง่าย: กดเบาได้สีอ่อน กดแรงได้สีเข้ม"
     ],
-    "bad": [
-     "Colours are not very bright.",
-     "สีไม่สดมาก"
+    [
+     "They work well on the paper in our book.",
+     "ใช้กับกระดาษในหนังสือของเราได้ดี"
     ]
-   },
-   {
-    "fig": "matCrayons",
-    "name": [
-     "Crayons",
-     "สีเทียน"
-    ],
-    "best": false,
-    "good": [
-     "Cheap. Bright colours.",
-     "ราคาถูก สีสด"
-    ],
-    "bad": [
-     "Hard to make soft shading.",
-     "แรเงาให้นุ่มนวลได้ยาก"
-    ]
-   },
-   {
-    "fig": "matWatercolours",
-    "name": [
-     "Watercolours",
-     "สีน้ำ"
-    ],
-    "best": false,
-    "good": [
-     "Beautiful soft colours. Good for painting light and shadow.",
-     "สีสวยนุ่มนวล เหมาะกับการระบายแสงและเงา"
-    ],
-    "bad": [
-     "You need a brush, water and a cloth. Thin paper can get wet and wrinkly.",
-     "ต้องมีพู่กัน น้ำ และผ้า กระดาษบางอาจเปียกและย่น"
+   ],
+   "example": {
+    "fig": "paintStages",
+    "img": "img/unit3/mango-stages.jpg",
+    "cap": [
+     "Light, medium and dark with colour pencils",
+     "อ่อน กลาง และเข้ม ด้วยสีไม้"
     ]
    }
-  ],
-  "why": [
-   "⭐ Recommended for Unit 3: colour pencils. They are the cheapest and the easiest way to shade light, medium and dark.",
-   "⭐ แนะนำสำหรับหน่วยที่ 3: สีไม้ เพราะราคาถูกที่สุด และแรเงาอ่อน กลาง เข้ม ได้ง่ายที่สุด"
-  ],
-  "teacher": [
-   {
-    "fig": "matTorch",
-    "name": [
-     "Teacher: a torch (phone light)",
-     "ครู: ไฟฉาย (ไฟจากโทรศัพท์)"
-    ],
-    "note": [
-     "For the Torch demo with a ball and a box.",
-     "ใช้สาธิตกับลูกบอลและกล่อง"
-    ]
-   }
-  ]
+  }
  },
  "vocabPage": 43,
  "vocab": [
@@ -591,8 +549,8 @@
   {
    "page": 48,
    "routine": [
-    "TORCH DEMO",
-    "สาธิตด้วยไฟฉาย"
+    "LOOK AND COMPARE",
+    "ดูและเปรียบเทียบ"
    ],
    "title": [
     "The side facing the light",
@@ -622,8 +580,8 @@
     }
    ],
    "tip": [
-    "Teacher: shine a phone torch on a ball. Move it around.",
-    "ครู: ส่องไฟฉายโทรศัพท์ไปที่ลูกบอล แล้วเลื่อนไปรอบ ๆ"
+    "Look at the oranges. Which one is near the candle? It is the brightest.",
+    "ดูส้ม ลูกไหนอยู่ใกล้เทียน ลูกนั้นสว่างที่สุด"
    ]
   },
   {
