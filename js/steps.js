@@ -78,17 +78,16 @@ const Steps = (() => {
     // ---------- 7. The beach scene (book p.53) ----------
     beach: { n: 5, draw(k) {
       const w = 480, h = 320;
-      let s = `<rect width="${w}" height="${h}" fill="#fff"/>`;
       if (k >= 4) return S(w, h, A.beach(w, h, { flat: k === 4, noSun: k === 4 }));
+      let s = `<rect width="${w}" height="${h}" fill="#fff"/>`;
       s += ln(0, h * .42, w, h * .42, pen(k, 1)) + `<path d="M0,${h * .62} Q${w * .45},${h * .52} ${w},${h * .6}" fill="none" stroke="${pen(k, 1)}" stroke-width="3"/>`;
       if (k >= 2) {
         const c = pen(k, 2);
-        s += `<path d="M${w * .18 - 10},${h * .92} C${w * .18 - 4},${h * .57} ${w * .18 + 10},${h * .36} ${w * .18 + 22},${h * .22}" stroke="${c}" stroke-width="3" fill="none"/>`;
-        [[-1.1, .2], [-.6, -.5], [.1, -.7], [.8, -.4], [1.2, .25]].forEach(([a, b]) => { s += `<path d="M${w * .18 + 22},${h * .22} q${a * 56},${b * 56 - 27} ${a * 112},${b * 90}" stroke="${c}" stroke-width="3" fill="none"/>`; });
-        s += `<circle cx="${w * .52}" cy="${h * .9 - h * .45 * .78 - h * .45 * .17}" r="${h * .45 * .17}" fill="none" stroke="${c}" stroke-width="3"/><rect x="${w * .52 - h * .06}" y="${h * .9 - h * .45 * .78}" width="${h * .12}" height="${h * .12}" fill="none" stroke="${c}" stroke-width="3"/><path d="M${w * .52 - h * .09},${h * .9 - h * .11} L${w * .52 - h * .054},${h * .9 - h * .25} L${w * .52 + h * .054},${h * .9 - h * .25} L${w * .52 + h * .09},${h * .9 - h * .11}Z" fill="none" stroke="${c}" stroke-width="3"/>`;
-        s += ln(w * .78, h * .5, w * .8, h * .36, c) + ln(w * .88, h * .49, w * .89, h * .38, c);
+        s += A.palmLine(w * .18, h * .92, h * .7, c) + A.palmLine(w * .78, h * .5, h * .14, c) + A.palmLine(w * .88, h * .49, h * .11, c);
+        s += A.kidLine(w * .52, h * .9, h * .45, c, k >= 3 ? NEW : "");
       }
-      if (k >= 3) s += `<circle cx="${w * .18 + 16}" cy="${h * .22 + 8}" r="7" fill="none" stroke="${NEW}" stroke-width="3"/><circle cx="${w * .18 + 28}" cy="${h * .22 + 10}" r="7" fill="none" stroke="${NEW}" stroke-width="3"/><circle cx="${w * .5}" cy="${h * .48}" r="3" fill="${NEW}"/><circle cx="${w * .54}" cy="${h * .48}" r="3" fill="${NEW}"/><ellipse cx="${w * .8}" cy="${h * .86}" rx="10" ry="6" fill="none" stroke="${NEW}" stroke-width="3"/>`;
+      if (k >= 3) s += `<circle cx="${w * .18 + 16}" cy="${h * .22 + 8}" r="8" fill="none" stroke="${NEW}" stroke-width="3"/><circle cx="${w * .18 + 30}" cy="${h * .22 + 11}" r="8" fill="none" stroke="${NEW}" stroke-width="3"/>
+        <g transform="translate(${w * .8},${h * .86})"><ellipse rx="11" ry="7" fill="none" stroke="${NEW}" stroke-width="3"/><path d="M-11,0 l-8,-7 M11,0 l8,-7 M-6,5 l-5,7 M6,5 l5,7" stroke="${NEW}" stroke-width="3"/></g>`;
       return S(w, h, s);
     } },
     // ---------- 8. Activity 4: turn the circle into a 3D object (book p.57) ----------

@@ -268,3 +268,11 @@ body.big .wrap { max-width: none; padding: 8px 20px; }
 body.big .sidelist { display: none; }
 body.big .with-side { grid-template-columns: 1fr; }
 @media print { .topbar, .tabs, .nav, .btnrow, .sidelist, .footer, .no-print { display: none !important; } .panel, .slide { border: 0; } }
+
+/* Today's drawing */
+.goal { max-width: 720px; margin: 0 auto 12px; }
+.check { background: var(--answer-bg); border: 3px solid var(--answer); border-radius: 16px; padding: 10px 16px; margin-top: 12px; }
+.check ol { list-style: none; padding: 0; margin: 0; } .check li { font-weight: 900; font-size: 1.1em; margin: 8px 0; }
+.small-pick { margin-top: 18px; border-top: 2px dashed var(--line); padding-top: 12px; }
+.slide.r-draw { border-color: var(--art1); } .slide.r-draw .slide-top { background: #FCE4EC; } .slide.r-draw .routine { background: var(--art1); }
+@media (min-width: 900px) { .tabs { grid-template-columns: repeat(7, 1fr); } }

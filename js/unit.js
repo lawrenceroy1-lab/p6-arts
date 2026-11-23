@@ -2,6 +2,7 @@
 // No logins and no scores: T. Roy teaches, students work on paper.
 
 const UNIT_ID = new URLSearchParams(location.search).get("u") || "03";
+const BUILD = 4;               // must match "build" in content/unitXX.json (made by tools/build_unitXX.py)
 let D = null;
 let tab = "need";
 let cleanup = null;
@@ -11,8 +12,7 @@ const TABS = [
   { id: "need", e: "🎒", en: "What you need", th: "สิ่งที่ต้องใช้", c: "#FFB300" },
   { id: "words", e: "🔤", en: "Words", th: "คำศัพท์", c: "#26A69A" },
   { id: "lessons", e: "📘", en: "Lessons", th: "บทเรียน", c: "#1E88E5" },
-  { id: "draw", e: "✏️", en: "Draw along", th: "วาดตามทีละขั้น", c: "#EC407A" },
-  { id: "explore", e: "🔬", en: "Explore", th: "สำรวจ", c: "#7E57C2" },
+  { id: "draw", e: "✏️", en: "Draw: The beach", th: "วาดภาพ: ชายหาด", c: "#EC407A" },
   { id: "acts", e: "📝", en: "Book activities", th: "กิจกรรมในหนังสือ", c: "#EF6C00" },
   { id: "test", e: "✅", en: "Unit test", th: "แบบทดสอบ", c: "#2E7D32" },
   { id: "games", e: "🎮", en: "Class games", th: "เกมในห้อง", c: "#0D2B6B" },
@@ -78,6 +78,11 @@ document.addEventListener("keydown", e => {
 fetch(`content/unit${UNIT_ID}.json`, { cache: "no-cache" })
   .then(r => { if (!r.ok) throw new Error(); return r.json(); })
   .then(d => {
+    // An old copy of this page (saved by the browser) with new content: load the newest page once.
+    if (d.build !== BUILD) {
+      let tried = false; try { tried = sessionStorage.getItem("reloaded") === String(d.build); sessionStorage.setItem("reloaded", String(d.build)); } catch (e) { }
+      if (!tried) { location.replace(location.pathname + location.search.replace(/&?fresh=\d+/, "") + (location.search ? "&" : "?") + "fresh=" + Date.now() + location.hash); return; }
+    }
     D = d;
     document.title = `Unit ${Number(d.unit)}: ${d.title[0]} | T. Roy`;
     document.getElementById("unitTitle").innerHTML = `<span class="uchip">Unit ${Number(d.unit)}</span><span>${B(d.title)}</span><span class="badge">📖 ${esc(d.pages)}</span>`;
@@ -96,7 +101,7 @@ function go(i) {
   if (cleanup) { cleanup(); cleanup = null; }
   keyNav = null;
   if (window.DrawPad) DrawPad.clear();
-  ({ need: Need, words: Words, lessons: Lessons, draw: DrawAlong, explore: ExploreTab, acts: Activities, test: TestReview, games: Games })[tab](i || 0);
+  ({ need: Need, words: Words, lessons: Lessons, draw: DrawAlong, acts: Activities, test: TestReview, games: Games })[tab](i || 0);
 }
 const header = (t, extra) => `<div class="panel-title"><h2>${t}</h2>${extra || ""}</div>`;
 
@@ -123,6 +128,7 @@ function Need() {
 function Words() {
   setHash(0);
   view().innerHTML = `<div class="panel">${header(`🔤 Words<span class="th">คำศัพท์</span>`, `<span class="badge">📖 p.${D.vocabPage}</span>`)}
+    <p class="small">The most important words. All words are in your book on p.${D.vocabPage}. · คำศัพท์ทั้งหมดอยู่ในหนังสือหน้า ${D.vocabPage}</p>
     <p class="small">Tap 🔊 to hear the word. · แตะ 🔊 เพื่อฟังเสียง</p>
     <div class="word-grid">${D.vocab.map((v, k) => `<div class="word"><button class="say" data-k="${k}" title="Listen">🔊</button>
       <div class="em">${v[4]}</div><h3>${esc(v[0])} <span class="pos">${esc(v[1])}</span></h3>
@@ -136,7 +142,7 @@ function Words() {
 function Lessons(start) {
   const S = D.slides;
   let i = Math.min(start, S.length - 1), shown = false;
-  const cls = s => ({ "FINGER VOTE": "r-vote", "UNIT REVIEW": "r-vote", "PENCIL PRACTICE": "r-pencil", "COLOUR SHADING": "r-colour", "PICTURE DETECTIVES": "r-detective", "EXTENSION": "r-extension", "UNIT 3": "r-start" })[s.routine[0]] || "";
+  const cls = s => ({ "FINGER VOTE": "r-vote", "UNIT REVIEW": "r-vote", "PENCIL PRACTICE": "r-pencil", "COLOUR SHADING": "r-colour", "PICTURE DETECTIVES": "r-detective", "EXTENSION": "r-extension", "UNIT 3": "r-start", "DRAW ALONG": "r-draw" })[s.routine[0]] || "";
   function draw() {
     setHash(i);
     const s = S[i], v = s.vote;
@@ -152,11 +158,12 @@ function Lessons(start) {
           ${shown ? `<div class="answer-box">✅ <span class="final">${B(v.options[v.answer])}</span><div>${B(v.why)}</div></div>` : ""}` : ""}
         ${s.tip ? `<div class="tip">💡 ${B(s.tip)}</div>` : ""}
       </div></div>
-      ${navBtns(i, S.length, "lp", "ln", `Draw along ➡<span class="th">วาดตามทีละขั้น</span>`)}`,
+      ${navBtns(i, S.length, "lp", "ln", `Book activities ➡<span class="th">กิจกรรมในหนังสือ</span>`)}`,
       sideList(`📘 Slides<span class="th">สไลด์</span>`, S.map(x => esc(plain(x.title))), i));
     on("ans", () => { shown = !shown; draw(); });
     on("lp", () => move(-1));
-    on("ln", () => { if (i === S.length - 1) { tab = "draw"; renderTabs(); go(0); } else move(1); });
+    on("ln", () => { if (i === S.length - 1) { tab = "acts"; renderTabs(); go(0); } else move(1); });
+    if (s.routine[0] === "DRAW ALONG") { view().querySelector(".slide-body").insertAdjacentHTML("beforeend", `<div class="btnrow"><button class="bigbtn pink" id="toDraw">✏️ Start drawing<span class="th">เริ่มวาด</span></button></div>`); on("toDraw", () => { tab = "draw"; renderTabs(); go(0); }); }
     onJump(k => { i = k; shown = false; draw(); });
   }
   function move(d) { const n = i + d; if (n < 0 || n >= S.length) return; i = n; shown = false; if (window.DrawPad) DrawPad.clear(); draw(); window.scrollTo({ top: document.getElementById("tabs").offsetTop - 6, behavior: "smooth" }); }
@@ -164,53 +171,32 @@ function Lessons(start) {
   draw();
 }
 
-// =============== ✏️ DRAW ALONG ===============
+// =============== ✏️ TODAY'S DRAWING (the beach) + help for book activities ===============
 function DrawAlong(start) {
-  const G = D.guides;
+  const G = D.guides, P = D.project;
   let g = Math.min(start, G.length - 1), k = 1;
   function draw() {
     setHash(g);
-    const guide = G[g], n = guide.steps.length;
-    view().innerHTML = `<div class="panel">${header(`✏️ Draw along<span class="th">วาดตามทีละขั้น</span>`, `<span class="badge">📖 p.${guide.page}</span>`)}
-      <div class="guide-pick">${G.map((x, j) => `<button class="chip ${j === g ? "on" : ""}" data-g="${j}">${j + 1}. ${B(x.title)}</button>`).join("")}</div>
+    const guide = G[g], n = guide.steps.length, last = k === n;
+    view().innerHTML = `<div class="panel">${header(g === 0 ? `✏️ ${B(P.title)}` : `✏️ ${B(guide.title)}`, `<span class="badge">📖 p.${guide.page}</span>`)}
+      ${g === 0 && k === 1 ? `<div class="goal">${pic(P.goal)}</div>` : ""}
       <div class="step-card">
         <span class="stepno">Step ${k} of ${n} · ขั้นที่ ${k}</span>
         <div class="steptext">${B(guide.steps[k - 1])}</div>
         ${Steps.draw(guide.id, k)}
       </div>
       <div class="step-strip">${guide.steps.map((_, j) => `<button class="${j + 1 === k ? "on" : ""}" data-k="${j + 1}">${Steps.draw(guide.id, j + 1)}<div class="sn">${j + 1}</div></button>`).join("")}</div>
-      <p class="small">Pink lines = new in this step. · เส้นสีชมพู = เส้นใหม่ในขั้นนี้</p>
-      ${navBtns(k - 1, n, "dp", "dn", g < G.length - 1 ? `Next drawing ➡<span class="th">ภาพต่อไป</span>` : "")}</div>`;
+      ${g === 0 && last ? `<div class="check"><h3>👫 Partner check<span class="th">ให้เพื่อนตรวจ</span></h3><ol>${P.check.map(c => `<li>☐ ${B(c)}</li>`).join("")}</ol></div>` : ""}
+      ${navBtns(k - 1, n, "dp", "dn")}
+      <div class="guide-pick small-pick">${G.map((x, j) => `<button class="chip ${j === g ? "on" : ""}" data-g="${j}">${B(x.title)}</button>`).join("")}</div></div>`;
     view().querySelectorAll("[data-g]").forEach(b => b.onclick = () => { g = +b.dataset.g; k = 1; draw(); });
     view().querySelectorAll("[data-k]").forEach(b => b.onclick = () => { k = +b.dataset.k; draw(); });
     on("dp", () => move(-1));
     on("dn", () => move(1));
   }
-  function move(d) {
-    const n = G[g].steps.length;
-    if (k + d > n) { if (g < G.length - 1) { g++; k = 1; draw(); } return; }
-    if (k + d < 1) return;
-    k += d; draw();
-  }
+  function move(d) { const n = G[g].steps.length; if (k + d < 1 || k + d > n) return; k += d; if (window.DrawPad) DrawPad.clear(); draw(); }
   keyNav = move;
   draw();
-}
-
-// =============== 🔬 EXPLORE ===============
-let exTool = 0;
-function ExploreTab() {
-  setHash(0);
-  const x = D.explore;
-  view().innerHTML = `<div class="panel">${header(`🔬 Explore<span class="th">สำรวจ</span>`)}
-    <div class="ex-btns">${x.tools.map((t, k) => `<button class="chip ${k === exTool ? "on" : ""}" data-x="${k}">${B(t.name)}</button>`).join("")}</div>
-    <p class="ex-tip">👉 ${B(x.tools[exTool].tip)}</p>
-    <div id="exBox" class="ex"></div>
-    <div class="ex-cards">
-      <div class="ex-card facts"><h3>📌 Key facts<span class="th">สรุปสาระสำคัญ</span></h3><ul>${x.facts.map(f => `<li>${B(f)}</li>`).join("")}</ul></div>
-      <div class="ex-card warn"><h3>⚠️ Watch out!<span class="th">ระวัง! ข้อผิดพลาดที่พบบ่อย</span></h3><ul>${x.mistakes.map(f => `<li>${B(f)}</li>`).join("")}</ul></div>
-    </div></div>`;
-  view().querySelectorAll("[data-x]").forEach(b => b.onclick = () => { exTool = +b.dataset.x; go(0); });
-  cleanup = Explore[x.tools[exTool].id](document.getElementById("exBox")) || null;
 }
 
 // =============== 📝 BOOK ACTIVITIES ===============

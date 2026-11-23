@@ -175,8 +175,28 @@ const Art = (() => {
       <circle cx="${x}" cy="${base - h * .78 - hr}" r="${hr}" fill="${skin}" stroke="${INK}" stroke-width="1.5"/>
       ${opt.flat ? "" : `<path d="M${x + hr * .2},${base - h * .78 - hr * 1.95} A${hr},${hr} 0 0 1 ${x + hr * .2},${base - h * .78 - hr * .05} A${hr * .8},${hr} 0 0 0 ${x + hr * .2},${base - h * .78 - hr * 1.95}Z" fill="#000" opacity=".12"/>`}
       <path d="M${x - hr},${base - h * .78 - hr} a${hr},${hr * .9} 0 0 1 ${hr * 2},0" fill="#5D4037"/>
+      <circle cx="${x - hr * 1.15}" cy="${base - h * .78 - hr * 1.1}" r="${hr * .38}" fill="#5D4037"/><circle cx="${x + hr * 1.15}" cy="${base - h * .78 - hr * 1.1}" r="${hr * .38}" fill="#5D4037"/>
       <circle cx="${x - hr * .35}" cy="${base - h * .78 - hr * .9}" r="${hr * .1}" fill="${INK}"/><circle cx="${x + hr * .35}" cy="${base - h * .78 - hr * .9}" r="${hr * .1}" fill="${INK}"/>
       <path d="M${x - hr * .3},${base - h * .78 - hr * .5} q${hr * .3},${hr * .25} ${hr * .6},0" stroke="${INK}" stroke-width="1.5" fill="none"/>`;
+  }
+
+  // line drawings (no colour) for Draw along steps
+  function kidLine(x, base, h, c, face) {
+    const hr = h * .17, hy = base - h * .78 - hr, sw = 3;
+    return `<line x1="${x - h * .07}" y1="${base - h * .26}" x2="${x - h * .07}" y2="${base}" stroke="${c}" stroke-width="${sw}"/><line x1="${x + h * .07}" y1="${base - h * .26}" x2="${x + h * .07}" y2="${base}" stroke="${c}" stroke-width="${sw}"/>
+      <path d="M${x - h * .2},${base - h * .25} L${x - h * .12},${base - h * .55} L${x + h * .12},${base - h * .55} L${x + h * .2},${base - h * .25}Z" fill="none" stroke="${c}" stroke-width="${sw}"/>
+      <rect x="${x - h * .13}" y="${base - h * .78}" width="${h * .26}" height="${h * .26}" rx="${h * .05}" fill="none" stroke="${c}" stroke-width="${sw}"/>
+      <circle cx="${x}" cy="${hy}" r="${hr}" fill="none" stroke="${c}" stroke-width="${sw}"/>
+      <circle cx="${x - hr * 1.15}" cy="${hy - hr * .1}" r="${hr * .38}" fill="none" stroke="${c}" stroke-width="${sw}"/><circle cx="${x + hr * 1.15}" cy="${hy - hr * .1}" r="${hr * .38}" fill="none" stroke="${c}" stroke-width="${sw}"/>
+      ${face ? `<circle cx="${x - hr * .35}" cy="${hy + hr * .1}" r="${hr * .11}" fill="${face}"/><circle cx="${x + hr * .35}" cy="${hy + hr * .1}" r="${hr * .11}" fill="${face}"/><path d="M${x - hr * .3},${hy + hr * .5} q${hr * .3},${hr * .25} ${hr * .6},0" stroke="${face}" stroke-width="2.5" fill="none"/>` : ""}`;
+  }
+  function palmLine(x, base, h, c) {
+    const tx = x + 22, ty = base - h;
+    let leaves = "";
+    [[-1.1, .2], [-.6, -.5], [.1, -.7], [.8, -.4], [1.2, .25], [.4, .5], [-.5, .55]].forEach(([a, b]) => {
+      leaves += `<path d="M${tx},${ty} q${a * h * .25},${b * h * .25 - h * .12} ${a * h * .5},${b * h * .4}" stroke="${c}" stroke-width="3" fill="none" stroke-linecap="round"/>`;
+    });
+    return `<path d="M${x - 12},${base} C${x - 6},${base - h * .5} ${x + 8},${base - h * .8} ${x + 20},${base - h}" stroke="${c}" stroke-width="3" fill="none"/><path d="M${x + 4},${base} C${x + 8},${base - h * .5} ${x + 18},${base - h * .8} ${x + 26},${base - h}" stroke="${c}" stroke-width="3" fill="none"/>${leaves}`;
   }
 
   // ---------- scenes ----------
@@ -365,5 +385,5 @@ const Art = (() => {
     if (!f) return `<div class="small">(picture "${n}" missing)</div>`;
     return f(arg).replace('class="art ', `class="art ${cls || ""} `);
   }
-  return { fig, ball, cube, cylinder, cone, pyramid, hatchBall, hatchBox, apple, mango, palm, kid, beach, sun, arrow, label, ground, shadowEll, svg, light, dark, mix, INK, names: () => Object.keys(F) };
+  return { fig, kidLine, palmLine, ball, cube, cylinder, cone, pyramid, hatchBall, hatchBox, apple, mango, palm, kid, beach, sun, arrow, label, ground, shadowEll, svg, light, dark, mix, INK, names: () => Object.keys(F) };
 })();
