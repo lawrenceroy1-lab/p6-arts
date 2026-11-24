@@ -60,6 +60,10 @@
     ]
    }
   ],
+  "recTitle": [
+   "🎨 Colours: we use",
+   "สีที่เราใช้"
+  ],
   "recommend": {
    "fig": "matColourPencils",
    "name": [
@@ -849,7 +853,12 @@
    ]
   }
  ],
- "build": 7,
+ "build": 10,
+ "drawTab": {
+  "e": "✏️",
+  "en": "Draw: The beach",
+  "th": "วาดภาพ: ชายหาด"
+ },
  "activities": [
   {
    "num": 1,

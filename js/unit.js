@@ -2,7 +2,7 @@
 // No logins and no scores: T. Roy teaches, students work on paper.
 
 const UNIT_ID = new URLSearchParams(location.search).get("u") || "03";
-const BUILD = 7;               // must match "build" in content/unitXX.json (made by tools/build_unitXX.py)
+const BUILD = 10;               // must match "build" in content/unitXX.json (made by tools/build_unitXX.py)
 let D = null;
 let tab = "need";
 let cleanup = null;
@@ -93,6 +93,7 @@ fetch(`content/unit${UNIT_ID}.json`, { cache: "no-cache" })
   .catch(() => { document.getElementById("unitTitle").textContent = "This unit is coming soon 🙂"; });
 
 function renderTabs() {
+  const dt = D.drawTab; if (dt) Object.assign(TABS.find(t => t.id === "draw"), dt);
   document.getElementById("tabs").innerHTML = TABS.map(t => `<button class="tab ${t.id === tab ? "on" : ""}" style="--c:${t.c}" data-t="${t.id}"><span class="e">${t.e}</span>${t.en}<span class="th">${t.th}</span></button>`).join("");
   document.querySelectorAll(".tab").forEach(b => b.onclick = () => { tab = b.dataset.t; renderTabs(); go(0); });
 }
@@ -114,12 +115,13 @@ function Need() {
     <p style="font-weight:800">${B(m.intro)}</p>
     <h3 class="section-h">✅ Everyone needs<span class="th">ทุกคนต้องมี</span></h3>
     <div class="mat-grid">${m.must.map(card).join("")}</div>
-    <h3 class="section-h">🎨 Colours: we use<span class="th">สีที่เราใช้</span></h3>
+    <h3 class="section-h">${B(m.recTitle)}</h3>
     <div class="rec">
       <div class="mat best"><span class="star">⭐ Recommended · แนะนำ</span>${Art.fig(r.fig)}<h3>${B(r.name)}</h3></div>
       <div class="rec-why"><h3>Why?<span class="th">ทำไม</span></h3><ul>${r.why.map(w => `<li>${B(w)}</li>`).join("")}</ul></div>
     </div>
     ${pic(r.example)}
+    ${m.extra ? `<div class="tip">📌 ${B(m.extra)}</div>` : ""}
     <div class="btnrow"><button class="bigbtn green" id="toWords">Start: Words ➡<span class="th">เริ่ม: คำศัพท์</span></button></div></div>`;
   on("toWords", () => { tab = "words"; renderTabs(); go(0); });
 }
@@ -172,15 +174,16 @@ function Lessons(start) {
 }
 
 // =============== ✏️ TODAY'S DRAWING (the beach) + help for book activities ===============
-const stepPic = (guide, k) => guide.imgs ? `<img class="step-img" src="${guide.imgs[k - 1]}" alt="Step ${k}" loading="lazy">` : Steps.draw(guide.id, k);
+const stepPic = (guide, k) => guide.imgs ? `<img class="step-img" src="${guide.imgs[k - 1]}" alt="Step ${k}" loading="lazy">` : (typeof Clay !== "undefined" && Clay.has(guide.id) ? Clay.draw(guide.id, k) : Steps.draw(guide.id, k));
 function DrawAlong(start) {
   const G = D.guides, P = D.project;
   let g = Math.min(start, G.length - 1), k = 1;
   function draw() {
     setHash(g);
     const guide = G[g], n = guide.steps.length, last = k === n;
-    view().innerHTML = `<div class="panel">${header(g === 0 ? `✏️ ${B(P.title)}` : `✏️ ${B(guide.title)}`, `<span class="badge">📖 p.${guide.page}</span>`)}
-      ${g === 0 && k === 1 ? `<div class="goal">${pic(P.goal)}</div>` : ""}
+    const goal = guide.goal || (g === 0 && P ? P.goal : null), check = guide.check || (g === 0 && P ? P.check : null);
+    view().innerHTML = `<div class="panel">${header(g === 0 && P && P.title ? `✏️ ${B(P.title)}` : `✏️ ${B(guide.title)}`, `<span class="badge">📖 p.${guide.page}</span>`)}
+      ${goal && k === 1 ? `<div class="goal">${pic(goal)}</div>` : ""}
       <div class="step-card">
         <span class="stepno">Step ${k} of ${n} · ขั้นที่ ${k}${guide.names ? ` · ${esc(guide.names[k - 1][0])}` : ""}</span>
         ${guide.names ? `<div class="small" style="font-weight:800;color:var(--th)">${esc(guide.names[k - 1][1])}</div>` : ""}
@@ -188,7 +191,7 @@ function DrawAlong(start) {
         ${stepPic(guide, k)}
       </div>
       <div class="step-strip">${guide.steps.map((_, j) => `<button class="${j + 1 === k ? "on" : ""}" data-k="${j + 1}">${stepPic(guide, j + 1)}<div class="sn">${j + 1}</div></button>`).join("")}</div>
-      ${g === 0 && last ? `<div class="check"><h3>👫 Partner check<span class="th">ให้เพื่อนตรวจ</span></h3><ol>${P.check.map(c => `<li>☐ ${B(c)}</li>`).join("")}</ol></div>` : ""}
+      ${check && last ? `<div class="check"><h3>👫 Partner check<span class="th">ให้เพื่อนตรวจ</span></h3><ol>${check.map(c => `<li>☐ ${B(c)}</li>`).join("")}</ol></div>` : ""}
       ${navBtns(k - 1, n, "dp", "dn")}
       <div class="guide-pick small-pick">${G.map((x, j) => `<button class="chip ${j === g ? "on" : ""}" data-g="${j}">${B(x.title)}</button>`).join("")}</div></div>`;
     view().querySelectorAll("[data-g]").forEach(b => b.onclick = () => { g = +b.dataset.g; k = 1; draw(); });
@@ -217,6 +220,12 @@ function Activities(start) {
         return `<div class="sort-item ${st}"><span class="no">${k + 1}</span>${src}
           <div class="tag2">${["2D", "3D"].map(t => `<button data-k="${k}" data-t="${t}" class="${p === t ? "on" : ""}">${t}</button>`).join("")}</div></div>`;
       }).join("")}</div><p class="small">Tap 2D or 3D under each picture. · แตะ 2D หรือ 3D ใต้ภาพแต่ละภาพ</p>`;
+    }
+    if (a.kind === "match") {
+      const L = ["A", "B", "C", "D"];
+      body = `<div class="match-book"><div>${a.pairs.map((p, k) => `<div class="mb-item"><span class="no">${k + 1}</span>${Art.fig(p[0])}</div>`).join("")}</div>
+        <div>${a.order.map((j, k) => `<div class="mb-item"><span class="no let">${L[k]}</span>${Art.fig(a.pairs[j][1])}</div>`).join("")}</div></div>
+        ${shown ? `<p class="answer-box">✅ ${a.pairs.map((_, k) => `${k + 1} → ${L[a.order.indexOf(k)]}`).join(" · ")}</p>` : ""}`;
     }
     if (a.example) body += `<h3 style="margin-top:14px">💡 Ideas<span class="th">ตัวอย่างไอเดีย</span></h3><div class="pics n${Math.min(a.example.length, 3)}">${a.example.map(p => pic(p)).join("")}</div>`;
     const rub = a.rubric ? `<div class="rub-wrap"><table class="rub"><tr><th>${B(D.rubric.title)}</th>${D.rubric.cols.map(c => `<th>${B(c)}</th>`).join("")}</tr>

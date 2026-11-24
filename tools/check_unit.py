@@ -28,6 +28,8 @@ def walk(x, path):
         if not x[0].strip():
             errors.append(f"{path}: English missing")
         return
+    if isinstance(x, list) and len(x) == 2 and all(isinstance(v, str) and re.fullmatch(r"\w+(:\w+)?", v) for v in x):
+        return  # a pair of picture names
     if isinstance(x, list) and len(x) == 2 and all(isinstance(v, str) for v in x) and re.search(r"[A-Za-z]{3,}", x[0]) and not THAI.search(x[1]) and not x[1].startswith(("img/", "fig:")) and x[1] not in ("2D", "3D"):
         errors.append(f"{path}: Thai missing for '{x[0][:40]}'")
     if isinstance(x, dict):
@@ -40,7 +42,9 @@ def walk(x, path):
 
 walk(d, "unit")
 
-FIGS = set(re.findall(r"^\s{4}(\w+): (?:\w+ )?(?:\(|dir =>)", art, re.M)) | set(re.findall(r"^\s{4}(\w+): dir =>", art, re.M))
+FIGS = set(re.findall(r"^\s{4}(\w+): (?:\(\)|\w+) =>", art, re.M))
+clay = open(os.path.join(ROOT, "js", "clay.js"), encoding="utf-8").read()
+CLAY = {m[0]: int(m[1]) for m in re.findall(r"(\w+): \[\w+, (\d+)\]", clay)}
 
 
 def fig_ok(name, where):
@@ -64,7 +68,13 @@ for i, s in enumerate(d["slides"]):
 
 for g in d["guides"]:
     m = re.search(rf"^\s{{4}}{g['id']}: {{ n: (\d+)", steps, re.M)
-    if not m:
+    if g["id"] in CLAY:
+        if CLAY[g["id"]] != len(g["steps"]):
+            errors.append(f"guide {g['id']}: {len(g['steps'])} texts but {CLAY[g['id']]} clay pictures")
+    elif g.get("imgs"):
+        if len(g["imgs"]) != len(g["steps"]):
+            errors.append(f"guide {g['id']}: pictures and steps do not match")
+    elif not m:
         errors.append(f"guide {g['id']} has no pictures in js/steps.js")
     elif int(m.group(1)) != len(g["steps"]):
         errors.append(f"guide {g['id']}: {len(g['steps'])} texts but {m.group(1)} pictures")
@@ -75,6 +85,8 @@ if pages != sorted(pages):
 for a in d["activities"]:
     for it in a.get("items", []):
         fig_ok(it[0], f"activity {a['num']}")
+    for pr in a.get("pairs", []):
+        fig_ok(pr[0], f"activity {a['num']}"); fig_ok(pr[1], f"activity {a['num']}")
     for p in a.get("example", []):
         fig_ok(p["fig"], f"activity {a['num']} example")
 

@@ -7,6 +7,10 @@ Run:  python3 tools/build_unit03.py      (then python3 tools/check_unit.py 03)
 """
 import json
 import os
+import sys
+
+sys.path.insert(0, os.path.dirname(__file__))
+from sitecfg import SITE_BUILD  # noqa: E402
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 IMG = os.path.join(ROOT, "img", "unit3")
@@ -51,6 +55,7 @@ MATERIALS = {
         {"fig": "matEraser", "name": P("Eraser", "ยางลบ"), "note": P("Rub out lines you do not need.", "ลบเส้นที่ไม่ต้องการ")},
         {"fig": "matSharpener", "name": P("Sharpener", "กบเหลาดินสอ"), "note": P("A sharp pencil makes thin lines.", "ดินสอแหลมทำให้ได้เส้นบาง")},
     ],
+    "recTitle": P("🎨 Colours: we use", "สีที่เราใช้"),
     "recommend": {"fig": "matColourPencils", "name": P("Colour pencils", "สีไม้"),
                   "why": [P("In this unit we shade light, medium and dark, like the mango below.", "หน่วยนี้เราแรเงาอ่อน กลาง และเข้ม เหมือนมะม่วงในภาพ"),
                           P("Colour pencils make this easy: press softly for light, press harder for dark.", "สีไม้ทำได้ง่าย: กดเบาได้สีอ่อน กดแรงได้สีเข้ม"),
@@ -317,7 +322,8 @@ unit = {
     "slides": SLIDES,
     "project": PROJECT,
     "guides": GUIDES,
-    "build": 7,
+    "build": SITE_BUILD,
+    "drawTab": {"e": "✏️", "en": "Draw: The beach", "th": "วาดภาพ: ชายหาด"},
     "activities": ACTIVITIES,
     "rubric": RUBRIC,
     "test": {"pages": "p.59 to 61", "questions": TEST},

@@ -1,0 +1,1829 @@
+{
+ "unit": "04",
+ "title": [
+  "Sculpting, Decorating, Adding, and Reducing",
+  "การปั้น การตกแต่ง การเพิ่มและการลด"
+ ],
+ "pages": "p.63 to 81",
+ "build": 10,
+ "drawTab": {
+  "e": "🗿",
+  "en": "Sculpt: step by step",
+  "th": "ปั้นทีละขั้น"
+ },
+ "materials": {
+  "intro": [
+   "Get these things ready before the lesson.",
+   "เตรียมของเหล่านี้ก่อนเริ่มเรียน"
+  ],
+  "must": [
+   {
+    "fig": "matPencil",
+    "name": [
+     "Pencil",
+     "ดินสอ"
+    ],
+    "note": [
+     "To make eyes and draw lines.",
+     "ใช้ทำตาและขีดเส้น"
+    ]
+   },
+   {
+    "fig": "matToothpicks",
+    "name": [
+     "Toothpicks",
+     "ไม้จิ้มฟัน"
+    ],
+    "note": [
+     "To join a head to a body.",
+     "ใช้ยึดหัวกับลำตัว"
+    ]
+   },
+   {
+    "fig": "matBoard",
+    "name": [
+     "Old plastic folder or book cover",
+     "แฟ้มพลาสติกเก่า หรือปกหนังสือ"
+    ],
+    "note": [
+     "Work on it. The desk stays clean.",
+     "ปั้นบนนี้ โต๊ะจะได้สะอาด"
+    ]
+   },
+   {
+    "fig": "matTissue",
+    "name": [
+     "Tissue or old cloth",
+     "ทิชชู่ หรือผ้าเก่า"
+    ],
+    "note": [
+     "Clean your hands.",
+     "เช็ดมือให้สะอาด"
+    ]
+   }
+  ],
+  "recTitle": [
+   "🎨 Clay: we use",
+   "ดินที่เราใช้"
+  ],
+  "recommend": {
+   "fig": "matClay",
+   "name": [
+    "Modelling clay (ดินน้ำมัน)",
+    "ดินน้ำมัน"
+   ],
+   "why": [
+    [
+     "It stays soft. It never dries out.",
+     "นิ่มตลอด ไม่แห้ง"
+    ],
+    [
+     "Easy to roll, squeeze and stick together.",
+     "ปั้น บีบ และติดกันได้ง่าย"
+    ],
+    [
+     "You can use it again and again.",
+     "ใช้ซ้ำได้หลายครั้ง"
+    ]
+   ],
+   "example": {
+    "fig": "clayFinal:elephant",
+    "img": "img/unit4/elephant.jpg",
+    "cap": [
+     "Made with modelling clay",
+     "ปั้นด้วยดินน้ำมัน"
+    ]
+   }
+  },
+  "extra": [
+   "For the vase project only: one empty small bottle (like a yoghurt drink bottle).",
+   "เฉพาะงานแจกัน: ขวดเล็กเปล่า 1 ใบ (เช่น ขวดนมเปรี้ยว)"
+  ]
+ },
+ "vocabPage": 63,
+ "vocab": [
+  [
+   "Sculpture",
+   "(n.)",
+   "ประติมากรรม รูปสลัก รูปปั้น รูปหล่อ",
+   [
+    "We make a clay sculpture.",
+    "เราปั้นรูปปั้นจากดิน"
+   ],
+   "🗿"
+  ],
+  [
+   "Addition",
+   "(n.)",
+   "การเพิ่มเติม การต่อเติม สิ่งที่เพิ่ม",
+   [
+    "Addition: stick more clay on.",
+    "การเพิ่ม: ติดดินเพิ่ม"
+   ],
+   "➕"
+  ],
+  [
+   "Reduction",
+   "(n.)",
+   "การลดลง",
+   [
+    "Reduction: take clay away.",
+    "การลด: เอาดินออก"
+   ],
+   "➖"
+  ],
+  [
+   "Attach",
+   "(v.)",
+   "ทำให้ติดกัน ติด แนบ",
+   [
+    "Attach the ears to the head.",
+    "ติดหูกับหัว"
+   ],
+   "🧲"
+  ],
+  [
+   "Squeeze",
+   "(n.), (v.)",
+   "การบีบ รีด",
+   [
+    "Squeeze the ball into an oval.",
+    "บีบลูกกลมให้เป็นวงรี"
+   ],
+   "✊"
+  ],
+  [
+   "Scrape",
+   "(n.), (v.)",
+   "การขูด ขูด เช็ด ถู เบียด",
+   [
+    "Scrape the clay with a knife.",
+    "ขูดดินด้วยมีด"
+   ],
+   "🔪"
+  ],
+  [
+   "Pierce",
+   "(v.)",
+   "ปัก เสียบ เจาะ",
+   [
+    "Pierce the eyes with a pencil.",
+    "เจาะตาด้วยดินสอ"
+   ],
+   "✏️"
+  ],
+  [
+   "Flatten",
+   "(v.)",
+   "ทำให้แบน ทำให้เรียบ",
+   [
+    "Flatten a ball to make an ear.",
+    "กดลูกกลมให้แบนเป็นหู"
+   ],
+   "🫓"
+  ],
+  [
+   "Trim",
+   "(n.), (v.), (adj.)",
+   "การตัด ตัดแต่ง เล็ม พอเหมาะ",
+   [
+    "Trim the edges.",
+    "ตัดแต่งขอบ"
+   ],
+   "✂️"
+  ],
+  [
+   "Pose",
+   "(n.), (v.)",
+   "การวางท่าทาง วางท่า กำหนด",
+   [
+    "Turn the head to make a pose.",
+    "หมุนหัวเพื่อจัดท่าทาง"
+   ],
+   "🕺"
+  ]
+ ],
+ "slides": [
+  {
+   "page": 64,
+   "routine": [
+    "UNIT 4",
+    "หน่วยที่ 4"
+   ],
+   "title": [
+    "Sculpting with clay",
+    "การปั้นด้วยดิน"
+   ],
+   "lines": [
+    [
+     "Today we make clay animals and more!",
+     "วันนี้เราจะปั้นสัตว์และอื่น ๆ จากดิน"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayFinal:elephant",
+     "img": "img/unit4/elephant.jpg"
+    }
+   ]
+  },
+  {
+   "page": 65,
+   "routine": [
+    "LOOK AND LEARN",
+    "ดูและเรียนรู้"
+   ],
+   "title": [
+    "What is a sculpture?",
+    "ประติมากรรมคืออะไร"
+   ],
+   "lines": [
+    [
+     "A sculpture is 3D art. You can see it from all sides.",
+     "ประติมากรรมคืองานศิลปะ 3 มิติ มองได้รอบด้าน"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayFinal:hippo",
+     "img": "img/unit4/hippo.jpg"
+    },
+    {
+     "fig": "clayFinal:doll",
+     "img": "img/unit4/doll.jpg"
+    }
+   ]
+  },
+  {
+   "page": 65,
+   "routine": [
+    "LOOK AND LEARN",
+    "ดูและเรียนรู้"
+   ],
+   "title": [
+    "Adding = stick clay ON",
+    "การเพิ่ม = ติดดินเพิ่ม"
+   ],
+   "lines": [
+    [
+     "Stick or attach more clay.",
+     "ติดหรือแปะดินเพิ่ม"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayAdd"
+    }
+   ]
+  },
+  {
+   "page": 65,
+   "routine": [
+    "LOOK AND LEARN",
+    "ดูและเรียนรู้"
+   ],
+   "title": [
+    "Reducing = take clay OFF",
+    "การลด = เอาดินออก"
+   ],
+   "lines": [
+    [
+     "Scrape, cut, squeeze or pull clay away.",
+     "ขูด ตัด บีบ หรือดึงดินออก"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayReduce"
+    }
+   ]
+  },
+  {
+   "page": 65,
+   "routine": [
+    "FINGER VOTE",
+    "ชูนิ้วเลือกคำตอบ"
+   ],
+   "title": [
+    "Stick an ear on a head. Adding or reducing?",
+    "ติดหูบนหัว เป็นการเพิ่มหรือการลด"
+   ],
+   "lines": [
+    [
+     "A = 1 finger · B = 2 fingers",
+     "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayFinal:bun",
+     "img": "img/unit4/bun.jpg"
+    }
+   ],
+   "vote": {
+    "options": [
+     [
+      "A. Adding",
+      "A. การเพิ่ม"
+     ],
+     [
+      "B. Reducing",
+      "B. การลด"
+     ]
+    ],
+    "answer": 0,
+    "why": [
+     "We stick clay ON. That is adding.",
+     "เราติดดินเพิ่ม นั่นคือการเพิ่ม"
+    ]
+   }
+  },
+  {
+   "page": 66,
+   "routine": [
+    "POINT AND NAME",
+    "ชี้และบอกชื่อ"
+   ],
+   "title": [
+    "Six shapes we roll",
+    "รูปทรง 6 แบบที่เราปั้น"
+   ],
+   "lines": [
+    [
+     "Ball · Sausage · Pancake · Cone · Oval · Block",
+     "ลูกกลม · ไส้กรอก · แผ่นแบน · กรวย · วงรี · ก้อนเหลี่ยม"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayShapes"
+    }
+   ]
+  },
+  {
+   "page": 66,
+   "routine": [
+    "LOOK AND LEARN",
+    "ดูและเรียนรู้"
+   ],
+   "title": [
+    "Our tools",
+    "เครื่องมือของเรา"
+   ],
+   "lines": [
+    [
+     "Hands first! Then a pencil, a toothpick and a plastic knife.",
+     "ใช้มือก่อน แล้วใช้ดินสอ ไม้จิ้มฟัน และมีดพลาสติก"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayTools"
+    }
+   ]
+  },
+  {
+   "page": 64,
+   "routine": [
+    "THINK",
+    "คิด"
+   ],
+   "title": [
+    "Think first!",
+    "คิดก่อนปั้น"
+   ],
+   "lines": [
+    [
+     "Picture it in your mind.",
+     "นึกภาพในใจ"
+    ],
+    [
+     "Which shapes do you need?",
+     "ต้องใช้รูปทรงอะไรบ้าง"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayParts:elephant"
+    }
+   ]
+  },
+  {
+   "page": 67,
+   "routine": [
+    "FINGER VOTE",
+    "ชูนิ้วเลือกคำตอบ"
+   ],
+   "title": [
+    "Which tool joins the head to the body?",
+    "เครื่องมือใดใช้ยึดหัวกับลำตัว"
+   ],
+   "lines": [
+    [
+     "A = 1 finger · B = 2 fingers",
+     "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayHeadBody"
+    }
+   ],
+   "vote": {
+    "options": [
+     [
+      "A. Pencil",
+      "A. ดินสอ"
+     ],
+     [
+      "B. Toothpick",
+      "B. ไม้จิ้มฟัน"
+     ]
+    ],
+    "answer": 1,
+    "why": [
+     "A toothpick holds the heavy head.",
+     "ไม้จิ้มฟันช่วยยึดหัวที่หนัก"
+    ]
+   }
+  },
+  {
+   "page": 73,
+   "routine": [
+    "BOOK PICTURE",
+    "ภาพในหนังสือ"
+   ],
+   "title": [
+    "Seven things we can make",
+    "งานปั้น 7 อย่างที่เราทำได้"
+   ],
+   "lines": [
+    [
+     "Look in your book on p.66 to 73.",
+     "ดูในหนังสือหน้า 66 ถึง 73"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayFinal:doll",
+     "img": "img/unit4/doll.jpg",
+     "cap": [
+      "Princess doll",
+      "ตุ๊กตาเจ้าหญิง"
+     ]
+    },
+    {
+     "fig": "clayFinal:bun",
+     "img": "img/unit4/bun.jpg",
+     "cap": [
+      "Cutie Bun",
+      "หนูจุก"
+     ]
+    },
+    {
+     "fig": "clayFinal:tank",
+     "img": "img/unit4/tank.jpg",
+     "cap": [
+      "Tank",
+      "รถถัง"
+     ]
+    },
+    {
+     "fig": "clayFinal:hippo",
+     "img": "img/unit4/hippo.jpg",
+     "cap": [
+      "Hippo",
+      "ฮิปโป"
+     ]
+    },
+    {
+     "fig": "clayFinal:elephant",
+     "img": "img/unit4/elephant.jpg",
+     "cap": [
+      "Elephant",
+      "ช้าง"
+     ]
+    },
+    {
+     "fig": "clayFinal:vase",
+     "img": "img/unit4/vase.jpg",
+     "cap": [
+      "Vase",
+      "แจกัน"
+     ]
+    },
+    {
+     "fig": "clayFinal:relief",
+     "img": "img/unit4/relief.jpg",
+     "cap": [
+      "Clay flowers",
+      "ดอกไม้นูนสูง"
+     ]
+    }
+   ]
+  },
+  {
+   "page": 79,
+   "routine": [
+    "UNIT REVIEW",
+    "ทบทวนบทเรียน"
+   ],
+   "title": [
+    "Make a horse's body bigger. Which way?",
+    "ทำให้ลำตัวม้าใหญ่ขึ้น ทำอย่างไร"
+   ],
+   "lines": [
+    [
+     "A = 1 finger · B = 2 fingers",
+     "A = ชู 1 นิ้ว · B = ชู 2 นิ้ว"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayAdd"
+    }
+   ],
+   "vote": {
+    "options": [
+     [
+      "A. Cover it with more clay",
+      "A. แปะดินเพิ่ม"
+     ],
+     [
+      "B. Scrape clay away",
+      "B. ขูดดินออก"
+     ]
+    ],
+    "answer": 0,
+    "why": [
+     "Bigger = add more clay (covering).",
+     "ใหญ่ขึ้น = เพิ่มดิน (การแปะ)"
+    ]
+   }
+  },
+  {
+   "page": 66,
+   "routine": [
+    "SCULPT ALONG",
+    "ปั้นตาม"
+   ],
+   "title": [
+    "Sculpting time!",
+    "ถึงเวลาปั้นแล้ว"
+   ],
+   "lines": [
+    [
+     "Choose a project. Follow the steps.",
+     "เลือกงานปั้น แล้วทำตามทีละขั้น"
+    ]
+   ],
+   "pics": [
+    {
+     "fig": "clayFinal:elephant",
+     "img": "img/unit4/elephant.jpg"
+    }
+   ]
+  }
+ ],
+ "guides": [
+  {
+   "id": "doll",
+   "page": 66,
+   "title": [
+    "Princess doll",
+    "ตุ๊กตาเจ้าหญิง"
+   ],
+   "goal": {
+    "fig": "clayFinal:doll",
+    "img": "img/unit4/doll.jpg",
+    "cap": [
+     "We make this!",
+     "เราจะปั้นแบบนี้"
+    ]
+   },
+   "check": [
+    [
+     "Strong: it does not fall apart",
+     "แข็งแรง: ไม่หลุดออกจากกัน"
+    ],
+    [
+     "Adding: parts are stuck on well",
+     "การเพิ่ม: ติดชิ้นส่วนแน่น"
+    ],
+    [
+     "Neat: smooth and clean",
+     "เรียบร้อย: เรียบและสะอาด"
+    ]
+   ],
+   "steps": [
+    [
+     "Make a cone. Spread the bottom out: the skirt.",
+     "ปั้นเป็นกรวย กดขอบล่างให้บาน: กระโปรง"
+    ],
+    [
+     "Roll a ball: the head. Add a tiny nose. Pencil: eyes and mouth. Roll 2 thin sausages: arms.",
+     "ปั้นลูกกลม: หัว ติดจมูกเล็ก ดินสอ: ตาและปาก ปั้นไส้กรอกเล็ก 2 เส้น: แขน"
+    ],
+    [
+     "Put the head on top of the cone.",
+     "วางหัวบนยอดกรวย"
+    ],
+    [
+     "Stick the arms on the sides. Make a nice pose.",
+     "ติดแขนที่ด้านข้าง จัดท่าให้สวย"
+    ]
+   ]
+  },
+  {
+   "id": "bun",
+   "page": 67,
+   "title": [
+    "Cutie Bun",
+    "หนูจุก"
+   ],
+   "goal": {
+    "fig": "clayFinal:bun",
+    "img": "img/unit4/bun.jpg",
+    "cap": [
+     "We make this!",
+     "เราจะปั้นแบบนี้"
+    ]
+   },
+   "check": [
+    [
+     "Strong: it does not fall apart",
+     "แข็งแรง: ไม่หลุดออกจากกัน"
+    ],
+    [
+     "Adding: parts are stuck on well",
+     "การเพิ่ม: ติดชิ้นส่วนแน่น"
+    ],
+    [
+     "Neat: smooth and clean",
+     "เรียบร้อย: เรียบและสะอาด"
+    ]
+   ],
+   "steps": [
+    [
+     "Roll a ball: the head. Add a nose and 2 ears. Other colour: a bun on top. Pencil: eyes and mouth.",
+     "ปั้นลูกกลม: หัว ติดจมูกและหู 2 ข้าง ใช้ดินอีกสี: จุกบนหัว ดินสอ: ตาและปาก"
+    ],
+    [
+     "Make the body: an oval, 2 arms and 2 fat legs (Thai pants).",
+     "ปั้นลำตัว: วงรี แขน 2 ข้าง ขาอ้วน 2 ข้าง (กางเกงไทย)"
+    ],
+    [
+     "Push a toothpick in. Put the head on the body.",
+     "เสียบไม้จิ้มฟัน แล้ววางหัวบนลำตัว"
+    ],
+    [
+     "Turn the head. Choose a pose you like.",
+     "หมุนหัว เลือกท่าที่ชอบ"
+    ]
+   ]
+  },
+  {
+   "id": "tank",
+   "page": 68,
+   "title": [
+    "Tank",
+    "รถถัง"
+   ],
+   "goal": {
+    "fig": "clayFinal:tank",
+    "img": "img/unit4/tank.jpg",
+    "cap": [
+     "We make this!",
+     "เราจะปั้นแบบนี้"
+    ]
+   },
+   "check": [
+    [
+     "Strong: it does not fall apart",
+     "แข็งแรง: ไม่หลุดออกจากกัน"
+    ],
+    [
+     "Adding: parts are stuck on well",
+     "การเพิ่ม: ติดชิ้นส่วนแน่น"
+    ],
+    [
+     "Neat: smooth and clean",
+     "เรียบร้อย: เรียบและสะอาด"
+    ]
+   ],
+   "steps": [
+    [
+     "Make a block (a box shape).",
+     "ปั้นเป็นก้อนสี่เหลี่ยม"
+    ],
+    [
+     "Add a small block on top. Flatten 4 balls: wheels.",
+     "ติดก้อนเล็กด้านบน กดลูกกลม 4 ลูกให้แบน: ล้อ"
+    ],
+    [
+     "Pencil: pierce windows. Etch lines on the body.",
+     "ดินสอ: เจาะหน้าต่าง ขีดลายบนตัวรถ"
+    ],
+    [
+     "Add a sausage gun and small ball lights.",
+     "ติดปืนรูปไส้กรอกและไฟลูกกลมเล็ก"
+    ]
+   ]
+  },
+  {
+   "id": "hippo",
+   "page": 69,
+   "title": [
+    "Hippopotamus",
+    "ฮิปโปโปเตมัส"
+   ],
+   "goal": {
+    "fig": "clayFinal:hippo",
+    "img": "img/unit4/hippo.jpg",
+    "cap": [
+     "We make this!",
+     "เราจะปั้นแบบนี้"
+    ]
+   },
+   "check": [
+    [
+     "Strong: it does not fall apart",
+     "แข็งแรง: ไม่หลุดออกจากกัน"
+    ],
+    [
+     "Adding: parts are stuck on well",
+     "การเพิ่ม: ติดชิ้นส่วนแน่น"
+    ],
+    [
+     "Neat: smooth and clean",
+     "เรียบร้อย: เรียบและสะอาด"
+    ]
+   ],
+   "steps": [
+    [
+     "Make 2 ovals: a big one (body) and a small one (head).",
+     "ปั้นวงรี 2 ก้อน: ก้อนใหญ่ (ลำตัว) ก้อนเล็ก (หัว)"
+    ],
+    [
+     "Make small parts: 2 ears, 2 eyes, 2 white teeth.",
+     "ปั้นชิ้นเล็ก: หู 2 ข้าง ตา 2 ข้าง ฟันขาว 2 ซี่"
+    ],
+    [
+     "Stick the parts on the head. Pencil: nose and mouth.",
+     "ติดชิ้นส่วนบนหัว ดินสอ: จมูกและปาก"
+    ],
+    [
+     "Use a toothpick to join the head to the body.",
+     "ใช้ไม้จิ้มฟันยึดหัวกับลำตัว"
+    ]
+   ]
+  },
+  {
+   "id": "elephant",
+   "page": 70,
+   "title": [
+    "Elephant",
+    "ช้าง"
+   ],
+   "goal": {
+    "fig": "clayFinal:elephant",
+    "img": "img/unit4/elephant.jpg",
+    "cap": [
+     "We make this!",
+     "เราจะปั้นแบบนี้"
+    ]
+   },
+   "check": [
+    [
+     "Strong: it does not fall apart",
+     "แข็งแรง: ไม่หลุดออกจากกัน"
+    ],
+    [
+     "Adding: parts are stuck on well",
+     "การเพิ่ม: ติดชิ้นส่วนแน่น"
+    ],
+    [
+     "Neat: smooth and clean",
+     "เรียบร้อย: เรียบและสะอาด"
+    ]
+   ],
+   "steps": [
+    [
+     "Roll a big ball. Squeeze it into an oval: the body.",
+     "ปั้นลูกกลมใหญ่ บีบให้เป็นวงรี: ลำตัว"
+    ],
+    [
+     "Roll 4 thick sausages: the legs. Stick them under the body.",
+     "ปั้นไส้กรอกอ้วน 4 ชิ้น: ขา ติดใต้ลำตัว"
+    ],
+    [
+     "Roll a ball: the head. Join it with a toothpick.",
+     "ปั้นลูกกลม: หัว ยึดด้วยไม้จิ้มฟัน"
+    ],
+    [
+     "Roll a long sausage (trunk) and a thin one (tail).",
+     "ปั้นไส้กรอกยาว (งวง) และเส้นเล็ก (หาง)"
+    ],
+    [
+     "Flatten 2 balls: the big ears.",
+     "กดลูกกลม 2 ลูกให้แบน: หูใหญ่"
+    ],
+    [
+     "Add 2 white tusks. Pencil: eyes and lines on the trunk.",
+     "ติดงาสีขาว 2 ข้าง ดินสอ: ตาและเส้นที่งวง"
+    ]
+   ]
+  },
+  {
+   "id": "vase",
+   "page": 71,
+   "title": [
+    "Vase",
+    "แจกัน"
+   ],
+   "goal": {
+    "fig": "clayFinal:vase",
+    "img": "img/unit4/vase.jpg",
+    "cap": [
+     "We make this!",
+     "เราจะปั้นแบบนี้"
+    ]
+   },
+   "check": [
+    [
+     "Strong: it does not fall apart",
+     "แข็งแรง: ไม่หลุดออกจากกัน"
+    ],
+    [
+     "Adding: parts are stuck on well",
+     "การเพิ่ม: ติดชิ้นส่วนแน่น"
+    ],
+    [
+     "Neat: smooth and clean",
+     "เรียบร้อย: เรียบและสะอาด"
+    ]
+   ],
+   "steps": [
+    [
+     "Cover an empty small bottle with flat clay.",
+     "หุ้มขวดเล็กเปล่าด้วยดินแผ่นแบน"
+    ],
+    [
+     "Add clay and scrape clay to make a nice shape.",
+     "เพิ่มดินและขูดดินให้เป็นรูปทรงสวย"
+    ],
+    [
+     "Decorate: stick on small flat shapes.",
+     "ตกแต่ง: ติดชิ้นแบนเล็ก ๆ"
+    ],
+    [
+     "Add water and flowers.",
+     "ใส่น้ำและดอกไม้"
+    ]
+   ]
+  },
+  {
+   "id": "relief",
+   "page": 72,
+   "title": [
+    "Clay flowers (high relief)",
+    "ดอกไม้นูนสูง"
+   ],
+   "goal": {
+    "fig": "clayFinal:relief",
+    "img": "img/unit4/relief.jpg",
+    "cap": [
+     "We make this!",
+     "เราจะปั้นแบบนี้"
+    ]
+   },
+   "check": [
+    [
+     "Strong: it does not fall apart",
+     "แข็งแรง: ไม่หลุดออกจากกัน"
+    ],
+    [
+     "Adding: parts are stuck on well",
+     "การเพิ่ม: ติดชิ้นส่วนแน่น"
+    ],
+    [
+     "Neat: smooth and clean",
+     "เรียบร้อย: เรียบและสะอาด"
+    ]
+   ],
+   "steps": [
+    [
+     "Flatten clay into a thin sheet. Trim it into a rectangle.",
+     "กดดินเป็นแผ่นบาง ตัดเป็นสี่เหลี่ยม"
+    ],
+    [
+     "Make the parts: petals, centres, stems and leaves.",
+     "ปั้นชิ้นส่วน: กลีบ เกสร ก้าน และใบ"
+    ],
+    [
+     "Arrange the flowers. Pencil: blend the joins and draw the background.",
+     "จัดวางดอกไม้ ดินสอ: เกลี่ยรอยต่อและวาดลายพื้นหลัง"
+    ]
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "num": 1,
+   "page": 74,
+   "marks": 20,
+   "kind": "match",
+   "title": [
+    "Match the sculptures with their parts",
+    "จับคู่งานปั้นกับชิ้นส่วน"
+   ],
+   "task": [
+    "Look at each sculpture. Which parts made it? Draw a line in your book.",
+    "ดูงานปั้นแต่ละชิ้น ทำจากชิ้นส่วนใด ลากเส้นในหนังสือ"
+   ],
+   "steps": [
+    [
+     "Look at the shapes in each sculpture.",
+     "ดูรูปทรงในงานปั้นแต่ละชิ้น"
+    ],
+    [
+     "Find the same shapes on the right.",
+     "หารูปทรงเดียวกันทางขวา"
+    ]
+   ],
+   "pairs": [
+    [
+     "clayFinal:tank",
+     "clayParts:tank"
+    ],
+    [
+     "clayFinal:doll",
+     "clayParts:doll"
+    ],
+    [
+     "clayFinal:hippo",
+     "clayParts:hippo"
+    ],
+    [
+     "clayFinal:bun",
+     "clayParts:bun"
+    ]
+   ],
+   "order": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "answer": [
+    "Tank → blocks and wheels · Doll → cone, head, arms · Hippo → ovals and small parts · Cutie Bun → head, nose, ears and bun",
+    "รถถัง → ก้อนเหลี่ยมและล้อ · ตุ๊กตา → กรวย หัว แขน · ฮิปโป → วงรีและชิ้นเล็ก · หนูจุก → หัว จมูก หู และจุก"
+   ],
+   "scoring": [
+    "20 marks: 5 marks for each pair.",
+    "20 คะแนน: คู่ละ 5 คะแนน"
+   ]
+  },
+  {
+   "num": 2,
+   "page": 75,
+   "marks": 10,
+   "kind": "text",
+   "title": [
+    "I missed the boat",
+    "ฉันตกเรือ"
+   ],
+   "task": [
+    "You are on an island. The boat comes back in 7 days. A shed has many things. Write 10 useful things.",
+    "เราอยู่บนเกาะ เรือจะกลับมาอีก 7 วัน ในโรงเก็บของมีของหลายอย่าง เขียนของที่มีประโยชน์ 10 อย่าง"
+   ],
+   "steps": [
+    [
+     "Read the story in your book (p.75).",
+     "อ่านเรื่องในหนังสือ (หน้า 75)"
+    ],
+    [
+     "Think: what do you need to eat, sleep and stay safe?",
+     "คิด: ต้องใช้อะไรเพื่อกิน นอน และปลอดภัย"
+    ],
+    [
+     "Write 10 things.",
+     "เขียน 10 อย่าง"
+    ]
+   ],
+   "answer": [
+    "Book example: pot, pan, bucket, plate, knife, lighter, mattress, mosquito repellent, sunscreen lotion, clothes.",
+    "ตัวอย่างในหนังสือ: หม้อ กระทะ ถัง จาน มีด ไฟแช็ก ที่นอน ยากันยุง ครีมกันแดด เสื้อผ้า"
+   ],
+   "scoring": [
+    "10 marks: 1 mark for each thing.",
+    "10 คะแนน: อย่างละ 1 คะแนน"
+   ]
+  },
+  {
+   "num": 3,
+   "page": 75,
+   "marks": 20,
+   "kind": "draw",
+   "title": [
+    "Plan your sculpture",
+    "วางแผนงานปั้น"
+   ],
+   "task": [
+    "Choose one thing you want to sculpt. Draw and paint it. Then draw the parts you need.",
+    "เลือกสิ่งที่อยากปั้น 1 อย่าง วาดและระบายสี แล้ววาดชิ้นส่วนที่ต้องใช้"
+   ],
+   "steps": [
+    [
+     "What do you want to sculpt?",
+     "อยากปั้นอะไร"
+    ],
+    [
+     "Draw it and colour it.",
+     "วาดและระบายสี"
+    ],
+    [
+     "Which shapes and parts do you need?",
+     "ต้องใช้รูปทรงและชิ้นส่วนอะไรบ้าง"
+    ]
+   ],
+   "example": [
+    {
+     "fig": "clayParts:elephant",
+     "cap": [
+      "Parts for an elephant",
+      "ชิ้นส่วนของช้าง"
+     ]
+    }
+   ],
+   "answer": [
+    "Book example: a pot. Parts: a pot and a pot handle.",
+    "ตัวอย่างในหนังสือ: หม้อ ชิ้นส่วน: ตัวหม้อและหูหม้อ"
+   ],
+   "scoring": [
+    "20 marks.",
+    "20 คะแนน"
+   ]
+  },
+  {
+   "num": 4,
+   "page": 76,
+   "marks": 40,
+   "kind": "draw",
+   "guide": "elephant",
+   "rubric": true,
+   "title": [
+    "Evaluation activity: sculpt your plan",
+    "กิจกรรมประเมินผล: ปั้นตามแผน"
+   ],
+   "task": [
+    "Sculpt what you planned. Then answer the 4 questions in your book.",
+    "ปั้นตามที่วางแผนไว้ แล้วตอบคำถาม 4 ข้อในหนังสือ"
+   ],
+   "steps": [
+    [
+     "What tools did you use?",
+     "ใช้เครื่องมืออะไรบ้าง"
+    ],
+    [
+     "Did you use adding or reducing?",
+     "ใช้การเพิ่มหรือการลด"
+    ],
+    [
+     "What do you like best about your sculpture?",
+     "ชอบอะไรในงานปั้นของเรามากที่สุด"
+    ],
+    [
+     "How can you make it better?",
+     "จะทำให้ดีขึ้นได้อย่างไร"
+    ]
+   ],
+   "answer": [
+    "Book example: 1. Play dough, toothpicks. 2. Adding technique. 3. It is strong. 4. Use nicer colours and decorate the pot.",
+    "ตัวอย่างในหนังสือ: 1. ดินน้ำมัน ไม้จิ้มฟัน 2. การเพิ่ม 3. แข็งแรง 4. ใช้สีสวยขึ้นและตกแต่งหม้อ"
+   ],
+   "scoring": [
+    "40 marks. The teacher uses the Artwork Evaluation Form (p.77).",
+    "40 คะแนน ครูใช้แบบประเมินผลงานศิลปะ (หน้า 77)"
+   ]
+  }
+ ],
+ "rubric": {
+  "title": [
+   "Artwork Evaluation Form",
+   "แบบประเมินผลงานศิลปะ"
+  ],
+  "cols": [
+   [
+    "Very good (8 marks)",
+    "ดีมาก (8 คะแนน)"
+   ],
+   [
+    "Good (6-7 marks)",
+    "ดี (6-7 คะแนน)"
+   ],
+   [
+    "Fair (3-5 marks)",
+    "พอใช้ (3-5 คะแนน)"
+   ],
+   [
+    "Need to be improved (2 marks)",
+    "ควรปรับปรุง (2 คะแนน)"
+   ]
+  ],
+  "rows": [
+   [
+    "Creativity",
+    "ความคิดสร้างสรรค์"
+   ],
+   [
+    "Willingness to work",
+    "ความตั้งใจในการทำงาน"
+   ],
+   [
+    "Beauty of artwork",
+    "ความสวยงามของผลงาน"
+   ],
+   [
+    "Using correct materials and equipment",
+    "การใช้วัสดุอุปกรณ์ถูกต้อง"
+   ],
+   [
+    "Neatness of the work",
+    "ความเรียบร้อยของผลงาน"
+   ]
+  ],
+  "levels": [
+   [
+    "36 - 40",
+    [
+     "Very good",
+     "ดีมาก"
+    ],
+    "4"
+   ],
+   [
+    "25 - 35",
+    [
+     "Good",
+     "ดี"
+    ],
+    "3"
+   ],
+   [
+    "12 - 24",
+    [
+     "Fair",
+     "พอใช้"
+    ],
+    "2"
+   ],
+   [
+    "1 - 11",
+    [
+     "Need to be improved",
+     "ควรปรับปรุง"
+    ],
+    "1"
+   ]
+  ]
+ },
+ "test": {
+  "pages": "p.78 to 79",
+  "questions": [
+   {
+    "page": 78,
+    "q": [
+     "What does \"sculpting by addition\" mean?",
+     "\"การปั้นแบบเพิ่ม\" หมายถึงอะไร"
+    ],
+    "options": [
+     [
+      "Making a sculpture beautiful",
+      "ทำให้งานปั้นสวย"
+     ],
+     [
+      "Adding clay to make more details",
+      "เพิ่มดินเพื่อทำรายละเอียดเพิ่ม"
+     ],
+     [
+      "Changing the form",
+      "เปลี่ยนรูปทรง"
+     ],
+     [
+      "Taking clay away",
+      "เอาดินออก"
+     ]
+    ],
+    "answer": 1,
+    "why": [
+     "Addition = add more clay.",
+     "การเพิ่ม = เพิ่มดิน"
+    ]
+   },
+   {
+    "page": 78,
+    "q": [
+     "Which one is the reducing technique?",
+     "ข้อใดเป็นเทคนิคการลด"
+    ],
+    "options": [
+     [
+      "Scraping the body of the tiger",
+      "ขูดลำตัวเสือ"
+     ],
+     [
+      "Attaching the eyes to a cat",
+      "ติดตาให้แมว"
+     ],
+     [
+      "Attaching the head to a lion",
+      "ติดหัวให้สิงโต"
+     ],
+     [
+      "Covering the body of the sea lion",
+      "แปะดินบนลำตัวสิงโตทะเล"
+     ]
+    ],
+    "answer": 0,
+    "why": [
+     "Scraping takes clay away.",
+     "การขูดคือการเอาดินออก"
+    ]
+   },
+   {
+    "page": 78,
+    "q": [
+     "Which one makes 3D art?",
+     "ข้อใดใช้สร้างงานศิลปะ 3 มิติ"
+    ],
+    "options": [
+     [
+      "Drawing",
+      "การวาด"
+     ],
+     [
+      "Printing",
+      "การพิมพ์ภาพ"
+     ],
+     [
+      "Painting",
+      "การระบายสี"
+     ],
+     [
+      "Sculpting",
+      "การปั้น"
+     ]
+    ],
+    "answer": 3,
+    "why": [
+     "A sculpture is 3D.",
+     "งานปั้นเป็น 3 มิติ"
+    ]
+   },
+   {
+    "page": 78,
+    "q": [
+     "Which technique is in this picture?",
+     "ภาพนี้ใช้เทคนิคใด"
+    ],
+    "fig": "clayBottle",
+    "options": [
+     [
+      "Adding technique",
+      "เทคนิคการเพิ่ม"
+     ],
+     [
+      "Reducing technique",
+      "เทคนิคการลด"
+     ],
+     [
+      "Symmetry",
+      "ความสมมาตร"
+     ],
+     [
+      "Balancing",
+      "ความสมดุล"
+     ]
+    ],
+    "answer": 0,
+    "why": [
+     "Clay is added to cover the bottle.",
+     "เพิ่มดินหุ้มขวด"
+    ]
+   },
+   {
+    "page": 79,
+    "q": [
+     "Which technique does the picture show?",
+     "ภาพแสดงเทคนิคใด"
+    ],
+    "fig": "clayReduce",
+    "options": [
+     [
+      "Attaching",
+      "การติด"
+     ],
+     [
+      "Covering",
+      "การแปะ"
+     ],
+     [
+      "Scraping",
+      "การขูด"
+     ],
+     [
+      "Squeezing",
+      "การบีบ"
+     ]
+    ],
+    "answer": 2,
+    "why": [
+     "The knife scrapes clay away.",
+     "มีดขูดดินออก"
+    ]
+   },
+   {
+    "page": 79,
+    "q": [
+     "Which tool joins the head and the body?",
+     "ใช้อะไรยึดหัวกับลำตัว"
+    ],
+    "fig": "clayHeadBody",
+    "options": [
+     [
+      "Knife",
+      "มีด"
+     ],
+     [
+      "Fork",
+      "ส้อม"
+     ],
+     [
+      "Toothpick",
+      "ไม้จิ้มฟัน"
+     ],
+     [
+      "Chopstick",
+      "ตะเกียบ"
+     ]
+    ],
+    "answer": 2,
+    "why": [
+     "A toothpick holds the head on.",
+     "ไม้จิ้มฟันยึดหัวไว้"
+    ]
+   },
+   {
+    "page": 79,
+    "q": [
+     "How do we make a horse's body larger?",
+     "ทำให้ลำตัวม้าใหญ่ขึ้นด้วยเทคนิคใด"
+    ],
+    "options": [
+     [
+      "Covering",
+      "การแปะ"
+     ],
+     [
+      "Scraping",
+      "การขูด"
+     ],
+     [
+      "Pressing",
+      "การกด"
+     ],
+     [
+      "Squeezing",
+      "การบีบ"
+     ]
+    ],
+    "answer": 0,
+    "why": [
+     "Covering adds more clay.",
+     "การแปะคือการเพิ่มดิน"
+    ]
+   },
+   {
+    "page": 79,
+    "q": [
+     "What shape do we start with to sculpt a car?",
+     "ปั้นรถยนต์ควรเริ่มจากรูปทรงใด"
+    ],
+    "options": [
+     [
+      "Sphere",
+      "ทรงกลม"
+     ],
+     [
+      "Oval form",
+      "ทรงรี"
+     ],
+     [
+      "Cube",
+      "ลูกบาศก์"
+     ],
+     [
+      "Prism",
+      "ปริซึม"
+     ]
+    ],
+    "answer": 3,
+    "why": [
+     "A car is long like a box: a prism.",
+     "รถยาวเหมือนกล่อง: ปริซึม"
+    ]
+   },
+   {
+    "page": 79,
+    "q": [
+     "Which part of the tank was NOT made by adding or reducing?",
+     "ส่วนใดของรถถังไม่ได้ทำด้วยการเพิ่มหรือการลด"
+    ],
+    "fig": "clayFinal:tank",
+    "options": [
+     [
+      "The wheels",
+      "ล้อ"
+     ],
+     [
+      "The windows",
+      "หน้าต่าง"
+     ],
+     [
+      "The body of the tank",
+      "ตัวรถถัง"
+     ],
+     [
+      "The gun",
+      "ปืน"
+     ]
+    ],
+    "answer": 1,
+    "why": [
+     "The windows were pierced with a pencil.",
+     "หน้าต่างเจาะด้วยดินสอ"
+    ]
+   },
+   {
+    "page": 79,
+    "q": [
+     "Which sculpture is NOT for decoration?",
+     "งานปั้นใดไม่ได้ใช้เพื่อการตกแต่ง"
+    ],
+    "options": [
+     [
+      "Fruit",
+      "ผลไม้"
+     ],
+     [
+      "Animal",
+      "สัตว์"
+     ],
+     [
+      "Doll",
+      "ตุ๊กตา"
+     ],
+     [
+      "Pencil case",
+      "กล่องดินสอ"
+     ]
+    ],
+    "answer": 3,
+    "why": [
+     "A pencil case is for use, not decoration.",
+     "กล่องดินสอใช้งาน ไม่ใช่ของตกแต่ง"
+    ]
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": [
+    "Stick clay ON is...",
+    "ติดดินเพิ่มคือ..."
+   ],
+   "options": [
+    [
+     "adding",
+     "การเพิ่ม"
+    ],
+    [
+     "reducing",
+     "การลด"
+    ],
+    [
+     "painting",
+     "การระบายสี"
+    ],
+    [
+     "drawing",
+     "การวาด"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "Take clay OFF is...",
+    "เอาดินออกคือ..."
+   ],
+   "options": [
+    [
+     "reducing",
+     "การลด"
+    ],
+    [
+     "adding",
+     "การเพิ่ม"
+    ],
+    [
+     "printing",
+     "การพิมพ์"
+    ],
+    [
+     "posing",
+     "การจัดท่า"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "Which tool joins a head to a body?",
+    "อะไรใช้ยึดหัวกับลำตัว"
+   ],
+   "fig": "clayHeadBody",
+   "options": [
+    [
+     "Toothpick",
+     "ไม้จิ้มฟัน"
+    ],
+    [
+     "Eraser",
+     "ยางลบ"
+    ],
+    [
+     "Ruler",
+     "ไม้บรรทัด"
+    ],
+    [
+     "Brush",
+     "พู่กัน"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "Which tool makes the eyes?",
+    "อะไรใช้ทำตา"
+   ],
+   "options": [
+    [
+     "Pencil",
+     "ดินสอ"
+    ],
+    [
+     "Spoon",
+     "ช้อน"
+    ],
+    [
+     "Paper",
+     "กระดาษ"
+    ],
+    [
+     "Water",
+     "น้ำ"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "A flat round piece is a...",
+    "ชิ้นกลมแบนเรียกว่า..."
+   ],
+   "options": [
+    [
+     "pancake",
+     "แผ่นแบน"
+    ],
+    [
+     "cone",
+     "กรวย"
+    ],
+    [
+     "block",
+     "ก้อนเหลี่ยม"
+    ],
+    [
+     "sausage",
+     "ไส้กรอก"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "The elephant's legs are...",
+    "ขาช้างเป็นรูป..."
+   ],
+   "fig": "clayFinal:elephant",
+   "options": [
+    [
+     "sausages",
+     "ไส้กรอก"
+    ],
+    [
+     "pancakes",
+     "แผ่นแบน"
+    ],
+    [
+     "cones",
+     "กรวย"
+    ],
+    [
+     "blocks",
+     "ก้อนเหลี่ยม"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "The doll's skirt is a...",
+    "กระโปรงตุ๊กตาเป็นรูป..."
+   ],
+   "fig": "clayFinal:doll",
+   "options": [
+    [
+     "cone",
+     "กรวย"
+    ],
+    [
+     "ball",
+     "ลูกกลม"
+    ],
+    [
+     "block",
+     "ก้อนเหลี่ยม"
+    ],
+    [
+     "sausage",
+     "ไส้กรอก"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "The tank starts as a...",
+    "รถถังเริ่มจาก..."
+   ],
+   "fig": "clayFinal:tank",
+   "options": [
+    [
+     "block",
+     "ก้อนเหลี่ยม"
+    ],
+    [
+     "ball",
+     "ลูกกลม"
+    ],
+    [
+     "cone",
+     "กรวย"
+    ],
+    [
+     "pancake",
+     "แผ่นแบน"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "A sculpture is...",
+    "ประติมากรรมคือ..."
+   ],
+   "options": [
+    [
+     "3D art",
+     "ศิลปะ 3 มิติ"
+    ],
+    [
+     "a flat picture",
+     "ภาพแบน"
+    ],
+    [
+     "a song",
+     "เพลง"
+    ],
+    [
+     "a story",
+     "นิทาน"
+    ]
+   ]
+  },
+  {
+   "q": [
+    "Scraping is...",
+    "การขูดคือ..."
+   ],
+   "fig": "clayReduce",
+   "options": [
+    [
+     "reducing",
+     "การลด"
+    ],
+    [
+     "adding",
+     "การเพิ่ม"
+    ],
+    [
+     "posing",
+     "การจัดท่า"
+    ],
+    [
+     "covering",
+     "การแปะ"
+    ]
+   ]
+  }
+ ],
+ "match": [
+  [
+   [
+    "Adding",
+    "การเพิ่ม"
+   ],
+   [
+    "stick clay on",
+    "ติดดินเพิ่ม"
+   ]
+  ],
+  [
+   [
+    "Reducing",
+    "การลด"
+   ],
+   [
+    "take clay off",
+    "เอาดินออก"
+   ]
+  ],
+  [
+   [
+    "Toothpick",
+    "ไม้จิ้มฟัน"
+   ],
+   [
+    "joins parts",
+    "ยึดชิ้นส่วน"
+   ]
+  ],
+  [
+   [
+    "Pencil",
+    "ดินสอ"
+   ],
+   [
+    "eyes and lines",
+    "ตาและเส้น"
+   ]
+  ],
+  [
+   [
+    "Flatten",
+    "ทำให้แบน"
+   ],
+   [
+    "press it flat",
+    "กดให้แบน"
+   ]
+  ],
+  [
+   [
+    "Squeeze",
+    "บีบ"
+   ],
+   [
+    "press with fingers",
+    "กดด้วยนิ้ว"
+   ]
+  ],
+  [
+   [
+    "Pose",
+    "ท่าทาง"
+   ],
+   [
+    "the way it stands",
+    "ท่าที่ยืน"
+   ]
+  ],
+  [
+   [
+    "Sculpture",
+    "ประติมากรรม"
+   ],
+   [
+    "3D art",
+    "ศิลปะ 3 มิติ"
+   ]
+  ]
+ ]
+}

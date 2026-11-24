@@ -350,6 +350,20 @@ const Art = (() => {
     surreal: () => svg(480, 320, surreal(480, 320)),
     glassFruit: () => svg(400, 280, glassFruit(400, 280)),
     veg: () => svg(400, 280, veg(400, 280)),
+    // Unit 4 clay pictures (drawn in js/clay.js). crop() shows only part of a step picture.
+    clayFinal: g => typeof Clay !== "undefined" ? crop(Clay.draw(g, Clay.count(g)), "272 20 368 330") : "",
+    clayParts: g => typeof Clay !== "undefined" ? crop(Clay.draw(g, 2), "16 48 208 268") : "",
+    clayBottle: () => typeof Clay !== "undefined" ? crop(Clay.draw("vase", 1), "272 20 368 330") : "",
+    clayShapes: () => typeof Clay !== "undefined" ? Clay.shapes() : "",
+    clayAdd: () => typeof Clay !== "undefined" ? Clay.addReduce("add") : "",
+    clayReduce: () => typeof Clay !== "undefined" ? Clay.addReduce("reduce") : "",
+    clayHeadBody: () => typeof Clay !== "undefined" ? Clay.headBody() : "",
+    clayTools: () => typeof Clay !== "undefined" ? Clay.tools() : "",
+    matClay: () => svg(260, 120, ["#E53935", "#FB8C00", "#FDD835", "#43A047", "#1E88E5", "#8E24AA"].map((c, k) => `<rect x="${28 + k * 35}" y="30" width="28" height="70" rx="8" fill="${c}" stroke="${INK}" stroke-width="1.5"/><rect x="${32 + k * 35}" y="36" width="6" height="56" rx="3" fill="#fff" opacity=".35"/>`).join("")),
+    matToothpicks: () => svg(200, 110, [0, 1, 2, 3].map(k => `<line x1="${50 + k * 8}" y1="90" x2="${110 + k * 14}" y2="20" stroke="#C9A36A" stroke-width="5" stroke-linecap="round"/>`).join("")),
+    matBoard: () => svg(220, 120, `<rect x="30" y="25" width="160" height="80" rx="8" fill="#B3E5FC" stroke="${INK}" stroke-width="2.5" transform="skewX(-12)"/><rect x="45" y="35" width="40" height="8" rx="4" fill="#fff" opacity=".7" transform="skewX(-12)"/>`),
+    matTissue: () => svg(200, 120, `<rect x="45" y="50" width="110" height="55" rx="8" fill="#E1F5FE" stroke="${INK}" stroke-width="2.5"/><path d="M85,50 Q100,15 115,50" fill="#fff" stroke="${INK}" stroke-width="2.5"/>`),
+    matBottle: () => svg(200, 120, `<rect x="80" y="30" width="40" height="80" rx="12" fill="#E3F2FD" stroke="#90A4AE" stroke-width="3"/><rect x="88" y="14" width="24" height="20" rx="5" fill="#FFCDD2" stroke="#90A4AE" stroke-width="3"/>`),
     // Activity 1 (book p.55): our own pictures, same 2D / 3D answers as the book
     sort1: () => svg(200, 180, octagon(100, 90, 62, "#1E88E5")),
     sort2: () => svg(200, 180, apple(100, 95, 60)),
@@ -389,6 +403,13 @@ const Art = (() => {
     matCrayons: () => svg(260, 120, ["#E53935", "#FB8C00", "#FDD835", "#43A047", "#1E88E5", "#8E24AA"].map((c, k) => `<g transform="translate(${35 + k * 33},15)"><rect x="0" y="22" width="24" height="75" rx="4" fill="${c}" stroke="${INK}" stroke-width="1.5"/><path d="M0,22 Q12,-4 24,22Z" fill="${c}" stroke="${INK}" stroke-width="1.5"/><rect x="0" y="45" width="24" height="25" fill="#fff" opacity=".6"/></g>`).join("")),
     matWatercolours: () => svg(260, 120, `<rect x="20" y="25" width="190" height="75" rx="10" fill="#ECEFF1" stroke="${INK}" stroke-width="2.5"/>${["#E53935", "#FB8C00", "#FDD835", "#43A047", "#1E88E5", "#8E24AA"].map((c, k) => `<ellipse cx="${45 + (k % 3) * 60}" cy="${48 + Math.floor(k / 3) * 30}" rx="22" ry="11" fill="${c}"/>`).join("")}<line x1="215" y1="105" x2="250" y2="15" stroke="#8D6E63" stroke-width="6" stroke-linecap="round"/><path d="M212,112 l3,-12 8,3z" fill="#333"/>`),
   };
+
+  // show only part of a picture: a nested <svg> clips everything outside the box
+  function crop(svgStr, vb) {
+    const [, , w, h] = vb.split(" ").map(Number);
+    const inner = svgStr.slice(svgStr.indexOf(">") + 1, svgStr.lastIndexOf("</svg>"));
+    return `<svg class="art" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" role="img"><svg viewBox="${vb}" width="${w}" height="${h}" overflow="hidden">${inner}</svg></svg>`;
+  }
 
   function fig(name, cls) {
     if (!name) return "";
